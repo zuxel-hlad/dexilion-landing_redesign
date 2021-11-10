@@ -1,0 +1,10 @@
+@import './blocks/header/header-media.css';
+@import './blocks/btns/btns-media.css';
+@import './blocks/hero/hero-media.css';
+@import './blocks/titles/titles-media.css';
+@import './blocks/about-dexilion/about-dexilion-media.css';
+@import './blocks/dexilion-features/dexilion-features-media.css';
+@import './blocks/dexilion-how/dexilion-how-media.css';
+@import './blocks/dexilion-roadmap/dexilion-roadmap-media.css';
+@import './blocks/footer/footer-media.css';
+@import './blocks/dexilion-counter/dexilion-counter-media.css';

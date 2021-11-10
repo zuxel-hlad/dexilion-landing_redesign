@@ -1,0 +1,135 @@
+@media (max-width: 1305px) {
+  .about-card {
+    max-width: 600px;
+    padding: 32px;
+  }
+}
+
+@media (max-width: 1230px) {
+  .about-card {
+    max-width: 570px;
+  }
+  .about-card-descr {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .about-card {
+    max-width: 570px;
+  }
+}
+@media (max-width: 1178px) {
+  .about-card {
+    max-width: 550px;
+  }
+}
+@media (max-width: 1175px) {
+  .about-card {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .about-dexilion {
+    padding: 112px 0 0 0;
+  }
+
+  .about-card {
+    max-width: 520px;
+  }
+
+  .about-card-descr {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .about-card {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 1045px) {
+  .about-card {
+    max-width: 480px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .about-card {
+    max-width: 470px;
+  }
+}
+
+@media (max-width: 992px) {
+  .about-card {
+    max-width: 460px;
+  }
+}
+
+@media (max-width: 965px) {
+  .about-card {
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 945px) {
+  .about-card {
+    max-width: 440px;
+  }
+}
+
+@media (max-width: 925px) {
+  .about-card {
+    max-width: 430px;
+  }
+}
+
+@media (max-width: 900px) {
+  .about-dexilion {
+    height: auto;
+  }
+
+  .about-card-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .about-card {
+    max-width: 500px;
+    min-height: 343px;
+    margin: 0 0 15px 0;
+  }
+
+  .about-card:last-child {
+    margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-dexilion {
+    padding: 60px 0 0 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-card-logo {
+    max-width: 66px;
+  }
+
+  .about-card {
+    max-width: 343px;
+    margin: 0 0 20px 0;
+  }
+
+  .about-card-descr {
+    font-size: 14px;
+    line-height: 21px;
+    margin: 16px 0 0 0;
+  }
+
+  .about-card-wrapper {
+    margin: 20px 0 0 0;
+  }
+}

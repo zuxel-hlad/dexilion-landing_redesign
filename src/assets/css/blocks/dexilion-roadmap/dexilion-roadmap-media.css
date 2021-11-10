@@ -1,0 +1,214 @@
+@media (max-width: 1300px) {
+  .dexilion-roadmap {
+    align-items: flex-start;
+  }
+
+  .progress-item {
+    margin: 0 0 10px 0;
+  }
+
+  .progress-item:nth-child(6),
+  .progress-item:nth-child(7),
+  .progress-item:nth-child(8),
+  .progress-item:nth-child(9) {
+    border-radius: 4px;
+    top: unset;
+  }
+
+  .progress-item:nth-child(6) .progress-item-line,
+  .progress-item:nth-child(7) .progress-item-line,
+  .progress-item:nth-child(8) .progress-item-line,
+  .progress-item:nth-child(9) .progress-item-line {
+    top: unset;
+    height: 2px;
+  }
+
+  .progress-item:nth-child(6):hover .progress-item-line,
+  .progress-item:nth-child(7):hover .progress-item-line,
+  .progress-item:nth-child(8):hover .progress-item-line,
+  .progress-item:nth-child(9):hover .progress-item-line {
+    width: 100%;
+    left: 0;
+  }
+  .progress-item:nth-child(6):hover,
+  .progress-item:nth-child(7):hover,
+  .progress-item:nth-child(8):hover,
+  .progress-item:nth-child(9):hover {
+    border-radius: 4px;
+  }
+
+  .progress-item:nth-child(6)::after,
+  .progress-item:nth-child(7)::after,
+  .progress-item:nth-child(8)::after,
+  .progress-item:nth-child(9)::after {
+    display: block;
+  }
+
+  .progress-item:nth-child(6)::before,
+  .progress-item:nth-child(7)::before,
+  .progress-item:nth-child(8)::before,
+  .progress-item:nth-child(9)::before {
+    top: unset;
+    bottom: -6px;
+  }
+
+  .roadmap-progress-wrapper.desktop {
+    margin: 20px 0 0 0;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 1156px) {
+  .roadmap-progress-wrapper {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 1050px) {
+  .roadmap-progress-wrapper {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 800px) {
+  .roadmap-progress-wrapper {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 797px) {
+  .dexilion-roadmap {
+    padding: 0;
+    align-items: center;
+  }
+  .roadmap-progress-wrapper.desktop {
+    display: none;
+  }
+
+  .roadmap-progress-wrapper.mobile {
+    display: block;
+    padding: 0 0 80px 0;
+    position: relative;
+  }
+
+  .roadmap-progress-slider {
+    width: 100%;
+    max-width: 256px;
+    height: 213px;
+    max-height: 213px;
+  }
+
+  .slick-dotted.slick-slider {
+    margin: 0;
+    margin: 0 auto;
+  }
+
+  .slick-track {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .slick-arrow {
+    display: none;
+  }
+
+  .progress-bar {
+    position: absolute;
+    bottom: 36px;
+    z-index: 0;
+    padding: 0 10px;
+    width: 100%;
+    height: 2px;
+    background-color: var(--main-border-color);
+  }
+
+  .slick-dots {
+    width: 343px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    z-index: 1;
+  }
+
+  .slick-dots li {
+    width: 14px;
+    height: 14px;
+    border: 2px solid var(--btn-color);
+    border-radius: 50%;
+  }
+
+  .progress-bar-item {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 14px;
+    height: 14px;
+    border: 2px solid var(--btn-color);
+    border-radius: 50%;
+  }
+
+  .slick-active {
+    background-color: var(--btn-color);
+  }
+
+  .slick-active:before {
+    content: '';
+    position: absolute;
+    left: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    height: 2px;
+    width: 25px;
+    background-color: var(--btn-color);
+  }
+
+  .slick-active:after {
+    content: '';
+    position: absolute;
+    right: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    height: 2px;
+    width: 25px;
+    background-color: var(--btn-color);
+  }
+
+  .progress-item-mobile.slick-active {
+    background-color: var(--item-bg-hover);
+    border: 1px solid var(--main-border-color);
+    border-radius: 4px;
+  }
+}
+
+@media (max-width: 767px) {
+  .fp-scroller,
+  .fp-scrollable,
+  .fp-completely .fp-tableCell {
+    transform: none !important;
+    height: auto !important;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .dexilion-roadmap {
+    padding: 60px 0 0 0;
+    min-height: 400px;
+    height: unset;
+  }
+}
+
+@media (max-width: 400px) {
+  .progress-item {
+    padding: 32px;
+  }
+
+  .progress-item-descr {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}

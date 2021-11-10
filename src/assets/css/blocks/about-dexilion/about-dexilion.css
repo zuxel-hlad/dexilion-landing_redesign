@@ -1,0 +1,72 @@
+.about-dexilion {
+  padding: 120px 0 0 0;
+  background-color: var(--bg-main-color);
+  min-height: 520px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.about-dexilion-title {
+  position: relative;
+  display: inline-block;
+  animation-duration: 0.7s;
+}
+
+.about-card-wrapper {
+  margin: 80px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-card {
+  width: 100%;
+  max-width: 630px;
+  padding: 40px;
+  border: 1px solid var(--main-border-color);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: .5s all;
+}
+
+.about-card.exchange {
+  animation-delay: 0.5s;
+  animation-duration: 0.7s;
+}
+
+.about-card.organization {
+  animation-delay: 0.6s;
+  animation-duration: 0.7s;
+}
+
+.about-card-logo {
+  width: 88px;
+}
+
+.about-card-img {
+  max-width: 100%;
+}
+
+.about-card:hover {
+  background-color: var(--item-bg-hover);
+}
+
+.about-card:hover .about-card-descr {
+  color: #fff;
+}
+
+.about-card-logo {
+  width: 100%;
+}
+
+.about-card-title {
+  margin: 20px 0 0 0;
+}
+
+.about-card-descr {
+  margin: 20px 0 0 0;
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--main-gray-color);
+  transition: 0.5s all;
+}

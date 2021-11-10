@@ -1,0 +1,22 @@
+.main-title {
+    font-size: 52px;
+    font-weight: 700;
+    color: var(--titles-color);
+    line-height: 62px;
+}
+
+.title {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    color: var(--titles-color);
+}
+
+
+.subtitle {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    color: var(--titles-color);
+}
+

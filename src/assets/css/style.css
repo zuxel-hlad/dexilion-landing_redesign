@@ -1,0 +1,37 @@
+@import './base/fonts.css';
+@import './blocks/btns/btns.css';
+@import './blocks/titles/titles.css';
+@import './blocks/header/header.css';
+@import './blocks/hero/hero.css';
+@import './blocks/about-dexilion/about-dexilion.css';
+@import './blocks/dexilion-features/dexilion-features.css';
+@import './blocks/dexilion-how/dexilion-how.css';
+@import './blocks/dexilion-roadmap/dexilion-roadmap.css';
+@import './blocks/footer/footer.css';
+@import './base/animations.css';
+@import './blocks/burger/burger.css';
+@import './blocks/dexilion-counter/dexilion-counter.css';
+@import './responsive.css';
+
+:root {
+  --bg-main-color: #111222;
+  --main-gray-color: #a4a5af;
+  --main-border-color: #282942;
+  --dex-demo-color: #111222;
+  --btn-color: #ffb200;
+  --btn-hover-color: #ffc233;
+  --titles-color: #fff;
+  --item-bg-hover: #16172c;
+  --footer-color: #16172c;
+}
+
+.container {
+  width: 100%;
+  max-width: 1310px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: var(--bg-main-color);
+}

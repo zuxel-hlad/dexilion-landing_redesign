@@ -1,0 +1,67 @@
+.dexilion-features {
+  padding: 120px 0 0 0;
+  background-color: var(--bg-main-color);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.dexilion-features-title {
+  position: relative;
+  display: inline-block;
+  animation-duration: .7s;
+}
+
+.features-items-wrapper {
+  margin: 80px 0 0 0;
+}
+
+.features-item {
+  display: flex;
+  min-height: 156px;
+  border: 1px solid var(--main-border-color);
+  border-collapse: collapse;
+  padding: 40px;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+
+.features-item:first-child {
+  border-radius: 8px 8px 0px 0px;
+}
+
+.features-item:last-child {
+  border-bottom: 1px solid var(--main-border-color);
+  border-radius: 0px 0px 8px 8px;
+}
+
+.features-item:hover {
+  background-color: var(--item-bg-hover);
+}
+
+.features-item:hover .features-item-descr {
+  color: #fff;
+}
+
+.features-item-title-wrapper {
+  width: 50%;
+}
+
+.features-item-descr-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 40px;
+  width: 50%;
+}
+
+.features-item-title {
+  max-width: 460px;
+}
+
+.features-item-descr {
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--main-gray-color);
+  transition: 0.5s all;
+  max-width: 550px;
+}

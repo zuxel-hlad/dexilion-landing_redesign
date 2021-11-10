@@ -1,0 +1,22 @@
+.btn {
+    min-width: 192px;
+    min-height: 48px;
+    color: var(--dex-demo-color);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    background: var(--btn-color);
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.btn:hover {
+    background-color: var(--btn-hover-color);
+  }
+
+.btn:active {
+    transform: scale(0.95);
+}
