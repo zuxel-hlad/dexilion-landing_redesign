@@ -14,7 +14,13 @@
   }
 
   .demo-btn {
-    margin: 0;
+    margin: 0 0 0 10px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .nav-list-item {
+    margin: 0 10px 0 0;
   }
 }
 
@@ -39,6 +45,7 @@
   }
   .header-nav {
     flex-direction: column;
+    justify-content: initial;
   }
   .header-nav-list {
     flex-direction: column;
@@ -88,16 +95,6 @@
 
   .header-sicial-link svg {
     max-width: 100%;
-  }
-
-  .demo-btn {
-    width: 100%;
-    margin: 33px 0 0 0;
-  }
-
-  .demo {
-    width: 100%;
-    outline: none;
   }
 
   .burger-menu {

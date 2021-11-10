@@ -52,16 +52,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* title counter animation */
 
-  const titleCounterAnimation = () => {
-    const sectionTitles = document.querySelectorAll('.animated-title'),
-      dexilionCounter = document.querySelectorAll('.dexilion-counter');
-    sectionTitles.forEach((item, i) => {
-      item.addEventListener('animationend', () => {
-        dexilionCounter[i].classList.add('active');
-      });
-    });
-  };
-  titleCounterAnimation();
+  // const titleCounterAnimation = () => {
+  //   const sectionTitles = document.querySelectorAll('.animated-title'),
+  //     dexilionCounter = document.querySelectorAll('.dexilion-counter');
+  //   sectionTitles.forEach((item, i) => {
+  //     item.addEventListener('animationend', () => {
+  //       dexilionCounter[i].classList.add('active');
+  //     });
+  //   });
+  // };
+  // titleCounterAnimation();
 });
 
 /* jQuery content-ready */

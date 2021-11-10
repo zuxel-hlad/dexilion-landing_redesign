@@ -10,24 +10,24 @@
 @import './blocks/footer/footer.css';
 @import './base/animations.css';
 @import './blocks/burger/burger.css';
-@import './blocks/dexilion-counter/dexilion-counter.css';
 @import './responsive.css';
 
 :root {
-  --bg-main-color: #111222;
-  --main-gray-color: #a4a5af;
-  --main-border-color: #282942;
+  --black-color: #000;
+  --white-color: #fff;
+  --bg-main-color: #393939;
+  --nav-link-color: #737373;
+  --header-border: linear-gradient(90deg, #2c2c2c -0.99%, #262626 101.58%);
   --dex-demo-color: #111222;
-  --btn-color: #ffb200;
-  --btn-hover-color: #ffc233;
-  --titles-color: #fff;
-  --item-bg-hover: #16172c;
-  --footer-color: #16172c;
+  --btn-color: #02c9bf;
+  --btn-text-color: #fff;
+  --btn-hover-color: #fff;
+  --btn-text-hover: #02c9bf;
 }
 
 .container {
   width: 100%;
-  max-width: 1310px;
+  max-width: 1311px;
   padding: 0 15px;
   margin: 0 auto;
 }
