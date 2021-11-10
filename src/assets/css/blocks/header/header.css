@@ -77,6 +77,7 @@
   line-height: 27px;
   font-weight: 600;
   transition: 0.5s all;
+  width: 100%;
   max-width: 150px;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -84,8 +85,8 @@
 }
 
 .nav-list-link:hover {
-  overflow: unset;
   color: var(--white-color);
+  overflow: unset;
 }
 
 .nav-list-link:after {

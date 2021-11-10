@@ -3,6 +3,7 @@
 @import './blocks/titles/titles.css';
 @import './blocks/header/header.css';
 @import './blocks/hero/hero.css';
+@import './blocks/hero/hero-rounds.css';
 @import './blocks/about-dexilion/about-dexilion.css';
 @import './blocks/dexilion-features/dexilion-features.css';
 @import './blocks/dexilion-how/dexilion-how.css';
@@ -16,6 +17,8 @@
   --black-color: #000;
   --white-color: #fff;
   --bg-main-color: #393939;
+  --bg-secondary: #494949;
+  --card-bg-hover: #444444;
   --nav-link-color: #737373;
   --header-border: linear-gradient(90deg, #2c2c2c -0.99%, #262626 101.58%);
   --dex-demo-color: #111222;
@@ -24,6 +27,7 @@
   --btn-hover-color: #fff;
   --btn-text-hover: #02c9bf;
   --description-color: #CECECE;
+  --border-color: #686868;
 }
 
 .container {

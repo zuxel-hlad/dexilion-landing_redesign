@@ -1,5 +1,23 @@
-@media (max-width: 1000px) {
-  .btn {
-    min-width: 150px;
+@media (max-width: 992px) {
+  .btn:hover {
+    background-color: var(--btn-color);
+  }
+
+  .btn:hover .btn-text {
+    color: var(--white-color);
+  }
+
+  .btn:active {
+    background-color: var(--white-color);
+  }
+
+  .btn:active .btn-text {
+    color: var(--btn-color);
+  }
+}
+
+@media (max-width: 992px) {
+  .btn-text {
+    font-size: 16px;
   }
 }
