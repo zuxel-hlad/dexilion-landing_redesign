@@ -1,67 +1,55 @@
 .dexilion-features {
-  padding: 120px 0 0 0;
+  padding: 103px 0 0 0;
   background-color: var(--bg-main-color);
+  background: url('../../../img/key-features.bg.png') center center/contain
+    no-repeat;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-}
-
-.dexilion-features-title {
-  position: relative;
-  display: inline-block;
-  animation-duration: .7s;
+  min-height: 1021px;
 }
 
 .features-items-wrapper {
-  margin: 80px 0 0 0;
-}
-
-.features-item {
+  padding: 119px 0 0 0;
+  width: 100%;
+  min-height: 726px;
   display: flex;
-  min-height: 156px;
-  border: 1px solid var(--main-border-color);
-  border-collapse: collapse;
-  padding: 40px;
-  cursor: pointer;
-  transition: 0.5s all;
+  align-items: initial;
+  align-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.features-item:first-child {
-  border-radius: 8px 8px 0px 0px;
+.feature-item {
+  padding: 79px 25px 15px 25px;
+  position: relative;
+  width: 406px;
+  min-height: 260px;
+  border-radius: 5px;
+  background: linear-gradient(177.8deg, #3f3f3f 1.85%, #202020 105.95%);
 }
 
-.features-item:last-child {
-  border-bottom: 1px solid var(--main-border-color);
-  border-radius: 0px 0px 8px 8px;
+.item-logo {
+  width: 67px;
+  height: 67px;
+  background-color: #ccc;
+  position: absolute;
+  top: -21px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.features-item:hover {
-  background-color: var(--item-bg-hover);
+.item-text {
+  text-align: center;
 }
 
-.features-item:hover .features-item-descr {
-  color: #fff;
+.item-title {
+  font-size: 22px;
 }
 
-.features-item-title-wrapper {
-  width: 50%;
-}
-
-.features-item-descr-wrapper {
-  display: flex;
-  align-items: center;
-  padding: 0 0 0 40px;
-  width: 50%;
-}
-
-.features-item-title {
-  max-width: 460px;
-}
-
-.features-item-descr {
-  font-size: 20px;
-  line-height: 30px;
-  color: var(--main-gray-color);
-  transition: 0.5s all;
-  max-width: 550px;
+.item-descr {
+  margin: 15px 0 0 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--description-second-color);
 }
