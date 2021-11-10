@@ -1,6 +1,5 @@
 .header {
   position: fixed;
-  animation: down 0.8s ease-out;
   z-index: 2;
   width: 100%;
   min-height: 109px;

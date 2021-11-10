@@ -50,33 +50,5 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  /* title counter animation */
 
-  // const titleCounterAnimation = () => {
-  //   const sectionTitles = document.querySelectorAll('.animated-title'),
-  //     dexilionCounter = document.querySelectorAll('.dexilion-counter');
-  //   sectionTitles.forEach((item, i) => {
-  //     item.addEventListener('animationend', () => {
-  //       dexilionCounter[i].classList.add('active');
-  //     });
-  //   });
-  // };
-  // titleCounterAnimation();
 });
-
-/* jQuery content-ready */
-
-$(document).ready(function () {
-  $('.roadmap-progress-slider').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    infinite: true,
-    initialSlide: 0,
-    dots: true,
-  });
-});
-
-/* WOW js animations */
-
-new WOW().init();
