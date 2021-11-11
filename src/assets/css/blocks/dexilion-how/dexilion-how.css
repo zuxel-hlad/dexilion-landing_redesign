@@ -1,160 +1,154 @@
 .dexilion-how {
-  padding: 120px 0 0 0;
-  background-color: var(--bg-main-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
+  min-height: 500px;
 }
 
+.dexilion-how.step-1 {
+  padding: 118px 0 0 0;
+}
+
+.dexilion-how.step-4 {
+  padding: 0 0 75px 0;
+}
 
 .dexilion-how-title {
-  position: relative;
-  display: inline-block;
-  animation-duration: .7s;
+  margin-bottom: 75px;
 }
 
+.dexilion-how.reversed .content-text-block {
+  padding: 156px 124px 0 0;
+  order: 0;
+}
 
-.dexilion-steps-wrapper {
-  margin: 80px 0 0 0;
+.dexilion-how.reversed .content-image-block {
+  order: 1;
+}
+
+.content-wrapper {
   display: flex;
-  flex-wrap: wrap;
+  align-items: flex-start;
 }
 
-.dexilion-how.step-2 .dexilion-steps-wrapper,
-.dexilion-how.step-3 .dexilion-steps-wrapper,
-.dexilion-how.step-4 .dexilion-steps-wrapper {
-  margin: 0;
+.content-image-block {
+  width: 50%;
+  min-height: 500px;
+  background: url('../../../img/step-image.svg') top / cover no-repeat;
+  box-shadow: 0px 0px 26px 5px rgba(27, 27, 27, 0.43);
 }
 
-.dexilion-step-item {
-  width: 100%;
-  display: flex;
+.content-image {
+  box-shadow: 0px 0px 26px 5px rgba(27, 27, 27, 0.43);
+  background-color: var(--bg-main-color);
+  border-radius: 6px;
 }
 
-.step-image-wrapper {
+.content-image img {
+  object-fit: cover;
+}
+
+.content-text-block {
+  padding: 169px 0 0 124px;
   width: 50%;
 }
 
-.step-image-general {
-  position: relative;
-  cursor: pointer;
-  transition: 0.5s all;
-  animation-delay: .5s;
-  animation-duration: 1s;
-}
-
-.step-image-general img {
-  max-width: 100%;
-}
-
-.step-sub-img {
-  position: absolute;
-  cursor: pointer;
-  animation-delay: .6s;
-  animation-duration: .8s; 
-}
-
-.step-sub-img img {
-  max-width: 100%;
-}
-
-.step-text-wrapper {
-  width: 50%;
-  padding: 55px 0 0 160px;
-  animation-delay: .7s;
-  animation-duration: .8s;
-}
-
-.step-title {
-  margin: 20px 0 0 0;
-}
-
-.step-counter {
-  font-size: 16px;
-  font-weight: 700;
-  color: var(--btn-color);
-}
-
-.step-descr {
-  margin: 24px 0 0 0;
-  max-width: 400px;
-  color: var(--main-gray-color);
-  font-size: 20px;
-  line-height: 30px;
-}
-
-.step-icons {
-  margin: 24px 0 0 0;
-  width: 100%;
+.text-block-links {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
 }
 
-.step-icon {
+.text-block-link {
+  margin: 0 20px 0 0;
   width: 40px;
-  margin: 0 26px 0 0;
-  cursor: pointer;
-}
-
-.step-icon-link {
+  height: 40px;
   display: block;
-  text-decoration: none;
 }
 
-.step-icon:last-child {
+.text-block-link:last-child {
   margin: 0;
 }
 
-.step-icon img {
-  max-width: 100%;
+.text-block-step {
+  display: block;
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: var(--btn-color);
+  font-family: 'BD Megatoya';
 }
 
-.reversed .step-image-wrapper {
-  order: 2;
+.text-block-title {
+  margin: 20px 0 0 0;
+  color: var(--white-color);
+  font-weight: 700;
+  font-family: 'BD Megatoya';
+  font-size: 32px;
+  max-width: 500px;
 }
 
-.reversed .step-title {
-  margin: 24px 0 0 0;
+.text-block-descr {
+  margin: 16px 0 0 0;
+  max-width: 357px;
+  line-height: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--description-second-color);
 }
 
-.step-image-general.connect-wallet {
-  max-width: 590px;
+.text-block-links {
+  margin: 43px 0 0 0;
 }
 
-.step-sub-img.connect-wallet {
-  max-width: 441px;
-  bottom: -35px;
-  right: -40px;
+.connect-wallet-img {
+  margin: 97px 0 0 53px;
+  position: relative;
+  max-width: 464px;
+  height: 308px;
 }
 
-.step-image-general.deposit-funds {
-  max-width: 392px;
+.connect-sub-img {
+  max-width: 372px;
+  height: 188px;
+  position: absolute;
+  top: 142px;
+  right: -65px;
+}
+
+.deposit-img {
+  position: relative;
+  margin: 61px 0 0 73px;
+  width: 335px;
+  height: 371px;
   z-index: 1;
 }
 
-.step-sub-img.deposit-funds {
-  max-width: 322px;
-  top: 40px;
-  right: -236px;
+.deposit-sub-img {
+  width: 272px;
+  height: 301px;
+  position: absolute;
+  top: 34px;
+  right: -171px;
   z-index: -1;
 }
 
-.step-image-general.sell-derivatives {
-  max-width: 590px;
+.derivatives-img {
+  margin: 80px 0 0 39px;
+  position: relative;
+  width: 488px;
+  height: 306px;
 }
 
-.step-sub-img.sell-derivatives {
-  max-width: 219px;
-  right: -40px;
-  top: 40px;
+.derivatives-sub-img {
+  position: absolute;
+  width: 180px;
+  height: 312px;
+  top: 49px;
+  right: -53px;
 }
 
-.step-image-general.track-position {
-  max-width: 630px;
-}
-
-.dexilion-mobile-titles {
-  display: none;
+.position-img {
+  margin: 69px 0 0 79px;
+  width: 492px;
+  height: 372px;
 }
