@@ -1,0 +1,14 @@
+@media(max-width: 1250px) {
+  .content-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .content-image-block {
+    width: 600px;
+  }
+
+  .content-text-block {
+    width: 600px;
+  }
+}

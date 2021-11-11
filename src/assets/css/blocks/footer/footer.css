@@ -154,7 +154,7 @@
 }
 
 .footer-list-item-link.social svg path {
-  fill: #fff;
+  fill: var(--btn-color);
   transition: 0.5s all;
 }
 
@@ -163,5 +163,5 @@
 }
 
 .footer-list-item-link.social:hover svg path {
-  fill: var(--btn-color);
+  fill: var(--white-color);
 }
