@@ -1,41 +1,37 @@
 .main-title {
-    font-family: 'BD Megatoya';
-    font-size: 48px;
-    font-weight: 700;
-    color: var(--white-color);
-    line-height: 57px;
+  font-family: 'BD Megatoya';
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--white-color);
+  line-height: 57px;
 }
 
 .title {
-    font-family: 'BD Megatoya';
-    font-size: 21px;
-    line-height: 25px;
-    font-weight: 700;
-    color: var(--white-color);
-    opacity: .7;
-    text-transform: uppercase;
-    padding: 0 0 0 50px;
-    position: relative;
+  font-family: 'BD Megatoya';
+  font-size: 21px;
+  line-height: 25px;
+  font-weight: 700;
+  color: var(--white-color);
+  opacity: 0.7;
+  text-transform: uppercase;
+  padding: 0 0 0 50px;
+  position: relative;
 }
 
 .title::before {
-    content:'';
-    display: block;
-    width: 32px;
-    height: 32px;
-    background: url('../../../img/icons/title-bg.png') top left/contain no-repeat;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
+  content: '';
+  display: block;
+  width: 32px;
+  height: 32px;
+  background: url('../../../img/icons/title-bg.png') top left/contain no-repeat;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
-
 
 .subtitle {
-    font-family: 'BD Megatoya';
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 36px;
-    color: var(--white-color);
+  font-family: 'BD Megatoya';
+  font-weight: 700;
+  color: var(--white-color);
 }
-

@@ -25,8 +25,12 @@
   .feature-item:last-child {
     margin: 0;
   }
-
+ 
   .item-text {
     text-align: left;
+  }
+
+  .item-title {
+    line-height: 33px;
   }
 }

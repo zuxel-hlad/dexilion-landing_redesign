@@ -45,10 +45,11 @@
 
 .item-title {
   font-size: 22px;
+  line-height: 31px;
 }
 
 .item-descr {
-  margin: 15px 0 0 0;
+  margin: 16px 0 0 0;
   font-size: 16px;
   line-height: 24px;
   color: var(--description-second-color);
