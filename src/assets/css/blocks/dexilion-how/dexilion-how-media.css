@@ -1,4 +1,4 @@
-@media(max-width: 1250px) {
+@media (max-width: 1250px) {
   .content-wrapper {
     flex-wrap: wrap;
     justify-content: center;
@@ -10,5 +10,13 @@
 
   .content-text-block {
     width: 600px;
+  }
+
+  .text-block-step {
+    display: none;
+  }
+
+  .text-block-title {
+    display: none;
   }
 }
