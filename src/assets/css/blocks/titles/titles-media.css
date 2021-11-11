@@ -43,10 +43,6 @@
     background: none;
   }
 
-  .subtitle {
-    font-family: 'Poppins';
-    font-weight: 500;
-  }
 }
 
 @media (max-width: 350px) {

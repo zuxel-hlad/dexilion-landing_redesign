@@ -8,6 +8,21 @@
   }
 }
 
-@media (max-width: 1230px) {
+@media (max-width: 576px) {
+  .item-logo {
+    display: none;
+  }
 
+  .feature-item {
+    padding: 37px 25px 15px 25px;
+    margin: 0 0 20px 0;
+  }
+
+  .feature-item:last-child {
+    margin: 0;
+  }
+
+  .item-text {
+    text-align: left;
+  }
 }
