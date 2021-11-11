@@ -16,6 +16,20 @@
   }
 }
 
+@media (max-width: 992px) {
+  .footer-copyright {
+    margin: 50px 0;
+  }
+
+  .footer-list-item-link:hover {
+    color: var(--description-color);
+  }
+
+  .footer-list-item-link:active {
+    color: var(--white-color);
+  }
+}
+
 @media (max-width: 850px) {
   .footer-promo {
     max-width: 250px;
@@ -29,12 +43,19 @@
   .footer {
     padding: 60px 0;
   }
+
+  .footer-information {
+    padding: 8px 0 0 20px;
+  }
+}
+
+@media (max-width: 690px) {
+  .footer-wrapper {
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 660px) {
-  .section-footer {
-    height: auto;
-  }
   .footer {
     padding: 120px 0 120px 0;
   }
@@ -52,64 +73,76 @@
 }
 
 @media (max-width: 576px) {
+  .footer {
+    position: relative;
+  }
+
+  .footer-copyright {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
   .footer-promo {
     max-width: unset;
   }
 
+  .footer-logo {
+    margin: 0 auto;
+  }
+
   .footer-demo {
     width: 100%;
+    max-width: 100%;
+  }
+
+  .footer-information {
+    text-align: center;
+    padding: 54px 0 0 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-information-item-title::after {
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .footer-information-item:last-child {
     margin: 0;
   }
-}
 
-@media (max-width: 420px) {
-  .footer-copyright {
-    display: none;
-  }
-
-  .footer-copyright-mobile {
-    margin: 40px 0 0 0;
-    display: block;
-  }
-
-  .footer-copyright-mobile span {
+  .footer-information-item-title {
     font-size: 16px;
-    color: var(--main-gray-color);
-  }
-
-  .footer-information {
-    padding: 40px 0 0 0;
   }
 
   .footer-list-item-link {
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 12px;
   }
 
-  .footer-information-item.legal-and-privacy,
-  .footer-information-item.community {
-    margin: 50px 0 0 0;
-  }
-
-  .footer-information-item {
-    min-width: 160px;
-  }
-}
-
-@media (max-width: 350px) {
-  .footer-information {
+  .footer-list.social {
     justify-content: center;
   }
 
   .footer-information-item {
-    min-width: 180px;
-    max-width: 200px;
+    order: 1;
   }
 
-  .footer-information-item.documents {
-    margin: 50px 0 0 0;
+  .footer-information-item.community {
+    order: 0;
+    margin: 0 0 68px 0;
+  }
+}
+
+@media (max-width: 376px) {
+  .footer-copyright {
+    bottom: -31px;
+    text-align: center;
+  }
+
+  .footer-copyright span {
+    font-size: 10px;
+    line-height: 13px;
   }
 }

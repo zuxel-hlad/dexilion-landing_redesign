@@ -1,17 +1,11 @@
-.section-footer {
-  background-color: var(--bg-main-color);
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
 .footer {
-  padding: 80px 0;
+  padding: 72px 0 80px 0;
   display: flex;
   width: 100%;
+  min-height: 496px;
   justify-content: center;
   align-items: center;
-  background-color: var(--footer-color);
+  background-color: var(--footer-bg);
 }
 
 .footer-wrapper {
@@ -34,7 +28,8 @@
 }
 
 .footer-logo {
-  max-width: 98px;
+  width: 100%;
+  max-width: 208px;
 }
 
 .footer-logo-link {
@@ -46,25 +41,29 @@
 }
 
 .footer-demo {
-  margin: 32px 0 0 0;
+  margin: 31px 0 0 0;
+  width: 100%;
+  max-width: 254px;
+  min-height: 73px;
 }
 
 .footer-copyright {
-  margin: 178px 0 0 0;
+  margin: 144px 0 0 0;
   display: flex;
-  max-width: 135px;
+  max-width: 100%;
   flex-direction: column;
   justify-content: flex-end;
 }
 
 .footer-copyright span {
-  color: var(--main-gray-color);
+  color: var(--copyright-color);
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 24px;
 }
 
 .footer-information {
+  padding: 8px 0 0 0;
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -77,27 +76,18 @@
   min-height: 100%;
 }
 
-.footer-information-item.knowledge-base {
-  animation-delay: .1s;
-}
-.footer-information-item.documents {
-  animation-delay: .3s;
-}
-.footer-information-item.legal-and-privacy{
-  animation-delay: .4s;
-}
-.footer-information-item.community {
-  animation-delay: .7s;
-  animation-duration: .8s;
-}
-
 .footer-information-item-title {
   font-size: 20px;
   font-weight: 700;
+  font-family: 'BD Megatoya';
   line-height: 30px;
   min-height: 50px;
   position: relative;
-  color: var(--titles-color);
+  color: var(--white-color);
+  max-width: 230px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .footer-information-item-title::after {
@@ -141,12 +131,16 @@
   display: block;
   text-decoration: none;
   cursor: pointer;
-  color: var(--main-gray-color);
+  color: var(--description-second-color);
   font-size: 16px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 600;
   transition: 0.5s all;
   padding: 8px 0;
+  max-width: 230px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .footer-list-item-link.social {
@@ -165,13 +159,9 @@
 }
 
 .footer-list-item-link:hover {
-  color: #fff;
+  color: var(--white-color);
 }
 
 .footer-list-item-link.social:hover svg path {
   fill: var(--btn-color);
-}
-
-.footer-copyright-mobile {
-  display: none;
 }

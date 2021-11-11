@@ -9,6 +9,10 @@
 }
 
 @media (max-width: 576px) {
+  
+  .dexilion-features {
+    padding: 103px 0 62px 0;
+  }
   .item-logo {
     display: none;
   }
@@ -25,7 +29,7 @@
   .feature-item:last-child {
     margin: 0;
   }
- 
+
   .item-text {
     text-align: left;
   }
