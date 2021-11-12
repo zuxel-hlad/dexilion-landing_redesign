@@ -5,20 +5,12 @@
   min-height: 109px;
   padding: 34px 0 13px 0;
   background-color: var(--bg-main-color);
-  min-height: 80px;
   display: flex;
   align-items: center;
   transition: 0.8s all;
-}
-
-.header::after {
-  content: '';
-  display: block;
-  position: absolute;
-  bottom: 0;
-  height: 2px;
-  width: 100%;
-  background: var(--header-border);
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(90deg, #2C2C2C -0.99%, #262626 101.58%);
+  border-image-slice: 1;
 }
 
 .header-wrapper {
@@ -81,19 +73,17 @@
   max-width: 150px;
   text-overflow: ellipsis;
   white-space: nowrap;
-  overflow: hidden;
 }
 
 .nav-list-link:hover {
   color: var(--white-color);
-  overflow: unset;
 }
 
 .nav-list-link:after {
   content: '';
   display: block;
   position: absolute;
-  bottom: -30px;
+  bottom: -32px;
   z-index: 3;
   left: 0;
   width: 100%;

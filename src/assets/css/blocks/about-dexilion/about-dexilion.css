@@ -36,7 +36,7 @@
 }
 
 .about-card:hover {
-  background: var(--bg-secondary);
+  background: var(--card-bg-hover);
   border-color: var(--btn-color);
 }
 
