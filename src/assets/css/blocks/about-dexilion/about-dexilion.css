@@ -23,6 +23,7 @@
   min-height: 252px;
   padding: 54px 40px;
   border: 1px solid var(--border-color);
+  background-color: var(--bg-secondary);
   border-radius: 5px;
   cursor: pointer;
   transition: 0.5s all;
@@ -34,15 +35,20 @@
 }
 
 .about-card:hover {
-  background: var(--card-bg-hover);
+  background: var(--bg-secondary);
   border-color: var(--btn-color);
 }
 
 .about-card-logo {
+  position: relative;
   margin: 0 24px 0 0;
   width: 68px;
   height: 68px;
-  background-color: #ccc;
+  background: var(--card-bg-hover);
+}
+
+.about-card-logo svg {
+  position: absolute;
 }
 
 .card-text {
