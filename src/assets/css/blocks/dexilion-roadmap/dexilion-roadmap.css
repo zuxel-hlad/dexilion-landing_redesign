@@ -149,14 +149,15 @@
   text-align: left;
 }
 
-.item-title {
+.roadmap-item-title {
   font-size: 16px;
   font-family: 'BD Megatoya';
   font-weight: 700;
   color: var(--roadmap-lines-color);
 }
 
-.item-subtitle {
+.roadmap-item-subtitle {
+  margin: 12px 0 0 0;
   display: block;
   font-weight: 700;
   font-family: 'BD Megatoya';

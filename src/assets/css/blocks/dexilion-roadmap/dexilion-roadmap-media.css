@@ -88,8 +88,7 @@
 }
 
 @media (max-width: 576px) {
-
-  .dexilion-roadmap{
+  .dexilion-roadmap {
     padding: 93px 0 62px 0;
   }
 
@@ -99,5 +98,21 @@
 
   .item-wrapper {
     padding: 0 0 0 45px;
+  }
+}
+
+@media (max-width: 351px) {
+  .roadmap-item-title {
+    font-size: 14px;
+  }
+
+  .roadmap-item-subtitle {
+    margin: 12px 0 0 0;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .roadmap-title {
+    max-width: 100%;
   }
 }
