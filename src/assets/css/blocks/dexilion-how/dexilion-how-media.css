@@ -120,6 +120,10 @@
 }
 
 @media (max-width: 576px) {
+  .dexilion-how.step-1 {
+    padding: 74px 0 0 0;
+  }
+
   .content-image-block {
     margin: 14px 0 0 0;
   }

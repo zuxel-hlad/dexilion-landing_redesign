@@ -137,6 +137,9 @@
 }
 
 @media (max-width: 376px) {
+  .footer {
+    padding: 53px 0 61px 0;
+  }
   .footer-copyright {
     bottom: -31px;
     text-align: center;
