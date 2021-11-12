@@ -1,6 +1,7 @@
 .dexilion-roadmap {
   padding: 123px 0 162px 0;
   background-color: var(--bg-main-color);
+  min-height: 1400px;
 }
 
 .roadmap-title {
@@ -24,7 +25,6 @@
 .roadmap-content-wrapper {
   padding: 60px 0 0 0;
   padding: 0 115px;
-  min-height: 1747px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -63,6 +63,7 @@
 }
 
 .item-wrapper {
+  cursor: default;
   padding: 0 0 0 57px;
   position: relative;
   display: flex;
