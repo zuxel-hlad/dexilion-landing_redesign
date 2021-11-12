@@ -12,6 +12,7 @@
   
   .dexilion-features {
     padding: 103px 0 62px 0;
+    background-image: url('../../../img/features-mobile-bg.svg');
   }
   .item-logo {
     display: none;

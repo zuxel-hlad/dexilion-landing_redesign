@@ -95,6 +95,7 @@
   .footer-demo {
     width: 100%;
     max-width: 100%;
+    min-height: 54px;
   }
 
   .footer-information {

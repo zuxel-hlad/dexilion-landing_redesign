@@ -1,8 +1,8 @@
 .dexilion-features {
   padding: 103px 0 0 0;
-  background-color: var(--bg-main-color);
   background: url('../../../img/key-features.bg.png') center center/cover
     no-repeat;
+  background-color: var(--key-features-bg);
   display: flex;
   justify-content: center;
   align-items: flex-start;

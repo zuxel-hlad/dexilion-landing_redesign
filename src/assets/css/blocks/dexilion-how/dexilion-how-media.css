@@ -1,15 +1,20 @@
 @media (max-width: 1250px) {
   .content-wrapper {
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
   }
 
   .content-image-block {
-    width: 600px;
+    margin: 14px 0 0 0;
+    width: 100%;
+    max-width: 600px;
   }
 
   .content-text-block {
-    width: 600px;
+    width: 100%;
+    max-width: 600px;
+    padding: 30px 0 0 0;
   }
 
   .text-block-step {
@@ -18,5 +23,206 @@
 
   .text-block-title {
     display: none;
+  }
+
+  .text-block-step.mobile {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .text-block-title.mobile {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: 15px 0 0 0;
+  }
+
+  .text-block-descr {
+    margin: 0;
+  }
+
+  .text-block-links {
+    margin: 24px 0 0 0;
+  }
+
+  .dexilion-how.step-2,
+  .dexilion-how.step-3,
+  .dexilion-how.step-4 {
+    padding: 70px 0 0 0;
+  }
+
+  .dexilion-how.reversed .content-text-block {
+    padding: 0;
+    display: none;
+  }
+
+  .dexilion-how.reversed .content-text-block.mobile {
+    display: block;
+    order: 1;
+    padding: 20px 0 0 0;
+  }
+}
+
+@media (max-width: 630px) {
+  .content-image-block {
+    min-height: 350px;
+  }
+
+  .connect-wallet-img {
+    margin: 50px 0 0 53px;
+    width: 355px;
+    height: 238px;
+  }
+
+  .deposit-img {
+    margin: 50px 0 0 73px;
+    width: 270px;
+    height: 290px;
+  }
+
+  .deposit-sub-img {
+    width: 190px;
+    height: 200px;
+    right: -100px;
+  }
+
+  .content-image img {
+    object-fit: fill;
+  }
+
+  .connect-sub-img {
+    max-width: 325px;
+    height: 160px;
+    position: absolute;
+    top: 101px;
+  }
+
+  .derivatives-img {
+    margin: 50px 0 0 39px;
+    width: 420px;
+    height: 265px;
+  }
+
+  .derivatives-sub-img {
+    position: absolute;
+    width: 140px;
+    height: 241px;
+    top: 30px;
+    right: -40px;
+  }
+
+  .position-img {
+    margin: 50px 0 0 79px;
+    width: 384px;
+    height: 290px;
+  }
+}
+
+@media (max-width: 576px) {
+  .content-image-block {
+    margin: 14px 0 0 0;
+  }
+
+  .dexilion-how-title {
+    margin: 0 0 60px 0;
+  }
+
+  .text-block-title {
+    font-size: 28px;
+  }
+
+  .position-img {
+    margin: 50px 0 0 50px;
+  }
+
+  .connect-wallet-img {
+    margin: 22px 0 0 41px;
+    width: 255px;
+    height: 169px;
+  }
+
+  .connect-sub-img {
+    width: 205px;
+    height: 104px;
+    top: 78px;
+    right: -35px;
+  }
+  .content-image-block {
+    min-height: 229px;
+  }
+
+  .dexilion-how.step-2 .content-image-block,
+  .dexilion-how.step-3 .content-image-block {
+    min-height: 265px;
+  }
+
+  .deposit-img {
+    margin: 36px 0 0 53px;
+    width: 178px;
+    height: 196px;
+  }
+
+  .deposit-sub-img {
+    top: 18px;
+    right: -91px;
+    width: 145px;
+    height: 161px;
+  }
+
+  .dexilion-how.step-3 .text-block-title.mobile {
+    max-width: 200px;
+    margin: 15px auto 0 0;
+  }
+
+  .derivatives-img {
+    margin: 37px 0 0 31px;
+    width: 271px;
+    height: 170px;
+  }
+
+  .derivatives-sub-img {
+    width: 99px;
+    height: 173px;
+    top: 27px;
+    right: -29px;
+  }
+
+  .position-img {
+    margin: 37px 0 0 23px;
+    width: 303px;
+    height: 228px;
+  }
+
+  .dexilion-how.step-1 .content-image-block,
+  .dexilion-how.step-2 .content-image-block,
+  .dexilion-how.step-3 .content-image-block,
+  .dexilion-how.step-4 .content-image-block {
+    width: 378px;
+    border-radius: 5px;
+  }
+
+  .dexilion-how.step-4 .content-image-block {
+    min-height: 290px;
+  }
+}
+
+@media (max-width: 350px) {
+  .position-img {
+    margin: 37px 0 0 45px;
+    width: 280px;
+    height: 216px;
+  }
+
+  .connect-wallet-img {
+    margin: 22px 0 0 45px;
+  }
+
+  .deposit-img {
+    margin-left: 45px;
+  }
+
+  .derivatives-img {
+    margin-left: 45px;
   }
 }

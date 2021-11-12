@@ -152,3 +152,15 @@
   width: 492px;
   height: 372px;
 }
+
+.text-block-step.mobile {
+  display: none;
+}
+
+.text-block-title.mobile {
+  display: none;
+}
+
+.content-text-block.mobile {
+  display: none;
+}
