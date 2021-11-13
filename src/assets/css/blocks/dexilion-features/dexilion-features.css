@@ -30,13 +30,20 @@
 }
 
 .item-logo {
+  position: relative;
+  z-index: 1;
   width: 67px;
   height: 67px;
-  background-color: #ccc;
   position: absolute;
   top: -21px;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.item-logo svg {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .features-item-text {
