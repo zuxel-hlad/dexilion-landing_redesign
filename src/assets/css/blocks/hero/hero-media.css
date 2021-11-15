@@ -1,4 +1,8 @@
 @media (max-width: 992px) {
+  .dexilion-hero {
+    padding: 110px 0 57px 0;
+  }
+
   .hero-img {
     width: 650px;
     padding: 0;

@@ -20,16 +20,9 @@
     font-size: 21px;
   }
 
-  /* .title::before {
-    content: '';
-    display: block;
-    width: 26px;
-    height: 26px;
-    border: 2px solid #42e8e0;
-    border-radius: 50%;
-    opacity: 0.7;
-    background: none;
-  } */
+  .title::before {
+    transform: translateY(-39%);
+  }
 
   .subtitle {
     color: var(--mobile-title-color);

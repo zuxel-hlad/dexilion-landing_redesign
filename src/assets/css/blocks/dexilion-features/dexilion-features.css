@@ -46,6 +46,11 @@
   left: 0;
 }
 
+.item-logo .attractive-fees {
+  top: 0;
+  left: -8px;
+}
+
 .features-item-text {
   text-align: center;
 }
