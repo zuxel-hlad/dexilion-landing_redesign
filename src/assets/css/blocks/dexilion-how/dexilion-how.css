@@ -1,5 +1,6 @@
 .dexilion-how {
   min-height: 500px;
+  overflow: hidden;
 }
 
 .dexilion-how.step-1 {

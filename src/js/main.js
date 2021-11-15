@@ -1,23 +1,32 @@
 document.addEventListener('DOMContentLoaded', () => {
-  /* mobile burger */
   const burger = document.querySelector('.burger-menu'),
     headerWrapper = document.querySelector('.header-nav-wrapper'),
     headerLinks = document.querySelectorAll('.nav-list-link');
+  /* mobile burger */
 
-  const mobileMenuToggler = () => {
-    burger.classList.toggle('active');
-    headerWrapper.classList.toggle('active');
+  const mobileMenuActive = () => {
+    burger.classList.add('active');
+    headerWrapper.classList.add('active');
+  };
+
+  const mobileMenuRemoveActive = () => {
+    burger.classList.remove('active');
+    headerWrapper.classList.remove('active');
   };
 
   burger.addEventListener('click', (e) => {
     e.stopPropagation();
-    mobileMenuToggler();
+    if (!burger.classList.contains('active')) {
+      mobileMenuActive();
+    } else {
+      mobileMenuRemoveActive();
+    }
   });
 
   headerLinks.forEach((item) => {
     item.addEventListener('click', (e) => {
       if (e.target === item) {
-        mobileMenuToggler();
+        mobileMenuRemoveActive();
       }
     });
   });
@@ -30,10 +39,9 @@ document.addEventListener('DOMContentLoaded', () => {
     let menu_is_active = headerWrapper.classList.contains('active');
 
     if (!its_menu && !its_hamburger && menu_is_active) {
-      mobileMenuToggler();
+      mobileMenuRemoveActive();
     }
   });
-
   /* smooth scroll to anchor */
   const anchors = document.querySelectorAll('a[data-anchor]');
 
@@ -52,4 +60,30 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 /* wowjs init */
-new WOW().init();
+const wow = new WOW({
+  mobile: false,
+}).init();
+
+/* link actives */
+
+$(document).ready(function () {
+  let screenWidth = $(window).width();
+
+  if (screenWidth <= 992) {
+    return false;
+  } else {
+    jQuery(window).scroll(function () {
+      var $sections = $('.section');
+      $sections.each(function (i, el) {
+        var top = $(el).offset().top - 550;
+        var bottom = top + $(el).height();
+        var scroll = $(window).scrollTop();
+        var id = $(el).attr('id');
+        if (scroll > top && scroll < bottom) {
+          $('a.active').removeClass('active');
+          $('a[href="#' + id + '"]').addClass('active');
+        }
+      });
+    });
+  }
+});

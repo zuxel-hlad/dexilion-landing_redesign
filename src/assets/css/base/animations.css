@@ -32,12 +32,10 @@
 
 @keyframes down {
   from {
-    transition: none;
     transform: translateY(-110px);
   }
 
   to {
-    transition: none;
     transform: translateY(0);
   }
 }
@@ -50,7 +48,6 @@
 
   50% {
     transform: translate(-10px, 10px);
-    
   }
 }
 

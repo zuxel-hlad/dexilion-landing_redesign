@@ -7,7 +7,6 @@
   background-color: var(--bg-main-color);
   display: flex;
   align-items: center;
-  transition: 0.8s all;
   border-bottom: 2px solid transparent;
   border-image: linear-gradient(90deg, #2C2C2C -0.99%, #262626 101.58%);
   border-image-slice: 1;
@@ -47,10 +46,14 @@
 .header-nav {
   display: flex;
   justify-content: flex-end;
+  width: 100%;
 }
 
 .header-nav-list {
   display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 0 0 0 10px;
 }
 
 .nav-list-item {
@@ -80,6 +83,10 @@
   color: var(--white-color);
 }
 
+.nav-list-link.active {
+  color: var(--white-color);
+}
+
 .nav-list-link:after {
   content: '';
   display: block;
@@ -94,6 +101,10 @@
 }
 
 .nav-list-link:hover::after {
+  background-color: var(--white-color);
+}
+
+.nav-list-link.active::after {
   background-color: var(--white-color);
 }
 
