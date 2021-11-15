@@ -51,3 +51,5 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
+/* wowjs init */
+new WOW().init();

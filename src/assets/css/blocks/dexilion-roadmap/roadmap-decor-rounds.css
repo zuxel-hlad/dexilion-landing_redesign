@@ -1,6 +1,11 @@
 .roadmap-decor-round {
   position: absolute;
   transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+.roadmap-decor-round:hover {
+  animation: move linear .5s;
 }
 
 .roadmap-decor-round::after {
