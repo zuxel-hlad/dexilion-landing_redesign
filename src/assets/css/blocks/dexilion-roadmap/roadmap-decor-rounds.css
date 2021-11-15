@@ -1,136 +1,299 @@
 .roadmap-decor-round {
   position: absolute;
+  transform-style: preserve-3d;
 }
 
-.round-1 {
-  width: 27px;
-  height: 29px;
-  top: 423px;
-  left: 200px;
+.roadmap-decor-round::after {
+  content: '';
+  display: block;
+  position: absolute;
+  transform: translateZ(-1px);
 }
 
-.round-2 {
-  width: 32px;
-  height: 32px;
-  top: 476px;
-  left: 243px;
+.roadmap-decor-round.round-1 {
+  width: 23px;
+  height: 23px;
+  top: 413px;
+  left: 216px;
+  background: var(--grey-round-bg);
 }
 
-.round-3 {
-  width: 18px;
-  height: 18px;
-  top: 463px;
-  left: 320px;
-}
-
-.round-4 {
-  width: 44px;
-  height: 44px;
-  top: 798px;
-  left: 373px;
-}
-
-.round-5 {
-  width: 18px;
-  height: 19px;
-  top: 849px;
-  left: 457px;
-}
-
-.round-6 {
-  width: 33px;
-  height: 33px;
-  top: 883px;
-  left: 403px;
-}
-
-.round-7 {
-  width: 21px;
-  height: 21px;
-  top: 1204px;
-  left: 270px;
-}
-
-.round-8 {
-  width: 32px;
-  height: 32px;
-  top: 1260px;
-  left: 314px;
-}
-
-.round-9 {
-  width: 27px;
-  height: 27px;
-  top: 1232px;
-  left: 400px;
-}
-
-.round-10 {
-  width: 18px;
-  height: 18px;
-  top: 255px;
-  right: 134px;
-}
-
-.round-11 {
-  width: 40px;
-  height: 40px;
-  top: 302px;
-  right: 162px;
-}
-
-.round-12 {
-  width: 21px;
-  height: 21px;
-  top: 308px;
-  right: 250px;
-}
-
-.round-12 {
-  width: 21px;
-  height: 21px;
-  top: 308px;
-  right: 250px;
-}
-
-.round-13 {
-  width: 25px;
-  height: 25px;
-  top: 349px;
-  right: 281px;
-}
-
-.round-14 {
-  width: 27px;
-  height: 27px;
-  top: 650px;
-  right: 303px;
-}
-
-.round-15 {
-  width: 20px;
-  height: 20px;
-  top: 693px;
-  right: 257px;
-}
-
-.round-16 {
+.roadmap-decor-round.round-1::after {
+  top: 5px;
+  right: -3px;
   width: 24px;
   height: 24px;
-  top: 1038px;
-  right: 220px;
+  background: var(--grey-round-shadow);
 }
 
-.round-17 {
+.roadmap-decor-round.round-2 {
+  width: 26px;
+  height: 26px;
+  top: 476px;
+  left: 243px;
+  background: var(--green-round-bg);
+}
+
+.roadmap-decor-round.round-2::after {
+  top: 4px;
+  right: -6px;
+  width: 28px;
+  height: 28px;
+  background: var(--green-round-shadow);
+}
+
+.roadmap-decor-round.round-3 {
+  width: 14px;
+  height: 14px;
+  top: 463px;
+  left: 320px;
+  background: var(--grey-round-bg);
+}
+
+.roadmap-decor-round.round-3::after {
+  top: 3px;
+  right: -3px;
+  width: 14px;
+  height: 14px;
+  background: var(--grey-round-shadow);
+}
+
+.roadmap-decor-round.round-4 {
+  width: 25px;
+  height: 25px;
+  top: 798px;
+  left: 373px;
+  background: var(--green-round-bg);
+}
+
+.roadmap-decor-round.round-4::after {
+  top: 4px;
+  right: -6px;
+  width: 28px;
+  height: 28px;
+  background: var(--green-round-shadow);
+}
+
+.roadmap-decor-round.round-5 {
+  width: 14px;
+  height: 14px;
+  top: 831px;
+  left: 445px;
+  background: var(--grey-round-bg);
+}
+
+.roadmap-decor-round.round-5::after {
+  top: 3px;
+  right: -3px;
+  width: 14px;
+  height: 14px;
+  background: var(--grey-round-shadow);
+}
+
+.roadmap-decor-round.round-6 {
   width: 27px;
   height: 27px;
-  top: 1061px;
-  right: 301px;
+  top: 883px;
+  left: 403px;
+  background: var(--grey-round-bg);
 }
 
-.round-18 {
-  width: 40px;
-  height: 40px;
+.roadmap-decor-round.round-6::after {
+  top: 6px;
+  right: -4px;
+  width: 27px;
+  height: 27px;
+  background: var(--grey-round-shadow);
+}
+
+.roadmap-decor-round.round-7 {
+  width: 17px;
+  height: 17px;
+  top: 1204px;
+  left: 270px;
+  background: var(--green-round-bg);
+}
+
+.roadmap-decor-round.round-7::after {
+  top: 2px;
+  right: -4px;
+  width: 19px;
+  height: 19px;
+  background: var(--green-round-shadow);
+}
+
+.roadmap-decor-round.round-8 {
+  width: 27px;
+  height: 27px;
+  top: 1260px;
+  left: 314px;
+  background: var(--grey-round-bg);
+}
+
+.roadmap-decor-round.round-8::after {
+  top: 6px;
+  right: -4px;
+  width: 27px;
+  height: 27px;
+  background: var(--grey-round-shadow);
+}
+
+.roadmap-decor-round.round-9 {
+  width: 22px;
+  height: 22px;
+  top: 1232px;
+  left: 400px;
+  background: var(--green-round-bg);
+}
+
+.roadmap-decor-round.round-9::after {
+  top: 3px;
+  right: -5px;
+  width: 24px;
+  height: 24px;
+  background: var(--green-round-shadow);
+}
+
+.roadmap-decor-round.round-10 {
+  width: 15px;
+  height: 15px;
+  top: 246px;
+  right: 134px;
+  background: var(--grey-round-bg);
+}
+
+.roadmap-decor-round.round-10::after {
+  top: 3px;
+  right: -3px;
+  width: 16px;
+  height: 16px;
+  background: var(--grey-round-shadow);
+}
+
+.roadmap-decor-round.round-11 {
+  width: 32px;
+  height: 32px;
+  top: 302px;
+  right: 162px;
+  background: var(--green-round-bg);
+}
+
+.roadmap-decor-round.round-11::after {
+  top: 4px;
+  right: -8px;
+  width: 35px;
+  height: 35px;
+  background: var(--green-round-shadow);
+}
+
+.roadmap-decor-round.round-12 {
+  width: 16px;
+  height: 16px;
+  top: 308px;
+  right: 250px;
+  background: var(--green-round-bg);
+}
+
+.roadmap-decor-round.round-12::after {
+  top: 2px;
+  right: -4px;
+  width: 18px;
+  height: 18px;
+  background: var(--green-round-shadow);
+}
+
+.roadmap-decor-round.round-13 {
+  width: 20px;
+  height: 20px;
+  top: 349px;
+  right: 281px;
+  background: var(--grey-round-bg);
+}
+
+.roadmap-decor-round.round-13::after {
+  top: 5px;
+  right: -3px;
+  width: 20px;
+  height: 20px;
+  background: var(--grey-round-shadow);
+}
+
+.roadmap-decor-round.round-14 {
+  width: 22px;
+  height: 22px;
+  top: 650px;
+  right: 303px;
+  background: var(--green-round-bg);
+}
+
+.roadmap-decor-round.round-14::after {
+  top: 3px;
+  right: -5px;
+  width: 24px;
+  height: 24px;
+  background: var(--green-round-shadow);
+}
+
+.roadmap-decor-round.round-15 {
+  width: 16px;
+  height: 16px;
+  top: 693px;
+  right: 257px;
+  background: var(--grey-round-bg);
+}
+
+.roadmap-decor-round.round-15::after {
+  top: 4px;
+  right: -3px;
+  width: 17px;
+  height: 17px;
+  background: var(--grey-round-shadow);
+}
+
+.roadmap-decor-round.round-16 {
+  width: 19px;
+  height: 19px;
+  top: 1038px;
+  right: 220px;
+  background: var(--green-round-bg);
+}
+
+.roadmap-decor-round.round-16::after {
+  top: 3px;
+  right: -5px;
+  width: 21px;
+  height: 21px;
+  background: var(--green-round-shadow);
+}
+
+.roadmap-decor-round.round-17 {
+  width: 21px;
+  height: 21px;
+  top: 1061px;
+  right: 301px;
+  background: var(--grey-round-bg);
+}
+
+.roadmap-decor-round.round-17::after {
+  top: 5px;
+  right: -4px;
+  width: 22px;
+  height: 22px;
+  background: var(--grey-round-shadow);
+}
+
+.roadmap-decor-round.round-18 {
+  width: 32px;
+  height: 32px;
   top: 1105px;
   right: 249px;
+  background: var(--green-round-bg);
+}
+
+.roadmap-decor-round.round-18::after {
+  top: 5px;
+  right: -8px;
+  width: 35px;
+  height: 35px;
+  background: var(--green-round-shadow);
 }

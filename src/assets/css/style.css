@@ -35,6 +35,27 @@
   --copyright-color: #828392;
   --key-features-bg: #3f3f3f;
   --roadmap-lines-color: #42e8e0;
+  --green-round-bg: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(66, 232, 224, 0.78) 0%,
+    rgba(66, 232, 224, 0) 100%
+  );
+  --green-round-shadow: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(3, 3, 3, 0.69) 0%,
+    rgba(0, 0, 0, 0) 93.36%
+  );
+
+  --grey-round-bg: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(255, 255, 255, 0.69) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  --grey-round-shadow: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(3, 3, 3, 0.69) 0%,
+    rgba(0, 0, 0, 0) 93.36%
+  );
 }
 
 .container {

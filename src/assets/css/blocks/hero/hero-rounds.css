@@ -1,100 +1,237 @@
 .img-item {
   position: absolute;
-  z-index: 100;
+  transform-style: preserve-3d;
+  border-radius: 50%;
+}
+
+.img-item::after {
+  content: '';
+  display: block;
+  position: absolute;
+  transform: translateZ(-1px);
+  border-radius: 50%;
 }
 
 .img-item.one {
-  left: 150px;
-  top: 117px;
-  width: 17px;
-  height: 17px;
+  left: 134px;
+  top: 114px;
+  width: 13px;
+  height: 13px;
+  background: var(--green-round-bg);
+}
+
+.img-item.one::after {
+  top: 3px;
+  right: -3px;
+  width: 15px;
+  height: 15px;
+  background: var(--green-round-shadow);
 }
 
 .img-item.two {
-  width: 14px;
-  height: 14px;
-  left: 199px;
-  top: 137px;
+  width: 11px;
+  height: 11px;
+  left: 178px;
+  top: 132px;
+  background: var(--green-round-bg);
+}
+
+.img-item.two::after {
+  top: 2px;
+  right: -3px;
+  width: 12px;
+  height: 12px;
+  background: var(--green-round-shadow);
 }
 
 .img-item.three {
-  top: 91px;
-  left: 250px;
-  width: 34px;
-  height: 36px;
+  top: 90px;
+  left: 218px;
+  width: 28px;
+  height: 28px;
+  background: var(--grey-round-bg);
+}
+
+.img-item.three::after {
+  top: 7px;
+  right: -7px;
+  width: 29px;
+  height: 29px;
+  background: var(--grey-round-shadow);
 }
 
 .img-item.four {
-  width: 13px;
-  height: 13px;
+  width: 10px;
+  height: 10px;
   top: 95px;
   right: 329px;
+  background: var(--green-round-bg);
+}
+
+.img-item.four::after {
+  top: 2px;
+  right: -2px;
+  width: 11px;
+  height: 11px;
+  background: var(--green-round-shadow);
 }
 
 .img-item.five {
-  width: 15px;
-  height: 15px;
+  width: 12px;
+  height: 12px;
   top: 87px;
   left: 465px;
+  background: var(--grey-round-bg);
+}
+
+.img-item.five::after {
+  top: 3px;
+  right: -3px;
+  width: 12px;
+  height: 12px;
+  background: var(--grey-round-shadow);
 }
 
 .img-item.six {
-  width: 22px;
-  height: 22px;
-  top: 123px;
-  left: 410px;
+  width: 17px;
+  height: 17px;
+  top: 120px;
+  left: 414px;
+  background: var(--green-round-bg);
+}
+
+.img-item.six::after {
+  top: 2px;
+  right: -4px;
+  width: 19px;
+  height: 19px;
+  background: var(--green-round-shadow);
 }
 
 .img-item.seven {
-  width: 20px;
-  height: 20px;
-  top: 122px;
+  width: 16px;
+  height: 16px;
+  top: 119px;
   left: 504px;
+  background: var(--grey-round-bg);
+}
+
+.img-item.seven::after {
+  top: 4px;
+  right: -3px;
+  width: 16px;
+  height: 16px;
+  background: var(--grey-round-shadow);
 }
 
 .img-item.eight {
-  width: 22px;
-  height: 22px;
-  top: 409px;
+  width: 17px;
+  height: 17px;
+  top: 371px;
   left: 50px;
+  background: var(--green-round-bg);
+}
+
+.img-item.eight::after {
+  top: 2px;
+  right: -4px;
+  width: 19px;
+  height: 19px;
+  background: var(--green-round-shadow);
 }
 
 .img-item.nine {
-  width: 31px;
-  height: 31px;
+  width: 25px;
+  height: 25px;
   top: 435px;
   left: 133px;
+  background: var(--grey-round-bg);
+}
+
+.img-item.nine::after {
+  top: 6px;
+  right: -4px;
+  width: 26px;
+  height: 26px;
+  background: var(--grey-round-shadow);
 }
 
 .img-item.ten {
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
   top: 405px;
   left: 221px;
+  background: var(--grey-round-bg);
+}
+
+.img-item.ten::after {
+  top: 6px;
+  right: -4px;
+  width: 16px;
+  height: 16px;
+  background: var(--grey-round-shadow);
 }
 
 .img-item.eleven {
-  width: 32px;
-  height: 32px;
+  width: 25px;
+  height: 25px;
   top: 420px;
   left: 280px;
+  background: var(--green-round-bg);
+}
+
+.img-item.eleven::after {
+  top: 6px;
+  right: -4px;
+  width: 28px;
+  height: 28px;
+  background: var(--green-round-shadow);
 }
 
 .img-item.twelve {
-  width: 21px;
-  height: 21px;
+  width: 17px;
+  height: 17px;
   top: 458px;
   left: 460px;
+  background: var(--green-round-bg);
 }
+
+.img-item.twelve::after {
+  top: 2px;
+  right: -4px;
+  width: 19px;
+  height: 19px;
+  background: var(--green-round-shadow);
+}
+
 .img-item.thirteen {
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
   left: 497px;
   top: 415px;
+  background: var(--grey-round-bg);
 }
-.img-item.fourteen {
+
+.img-item.thirteen::after {
+  top: 12px;
+  right: -6px;
   width: 25px;
   height: 25px;
+  background: var(--grey-round-shadow);
+}
+
+.img-item.fourteen {
+  width: 20px;
+  height: 20px;
   left: 580px;
   top: 450px;
+  background: var(--green-round-bg);
+}
+
+.img-item.fourteen::after {
+  top: 3px;
+  right: -5px;
+  width: 22px;
+  height: 22px;
+  background: var(--green-round-shadow);
 }
