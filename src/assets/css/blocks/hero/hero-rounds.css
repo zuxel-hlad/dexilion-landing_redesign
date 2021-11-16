@@ -7,7 +7,7 @@
 }
 
 .img-item:hover {
-  animation: move linear .5s;
+  animation: move linear 0.5s;
 }
 
 .img-item::after {
@@ -240,4 +240,18 @@
   width: 22px;
   height: 22px;
   background: var(--green-round-shadow);
+}
+
+@media (max-width: 1116px) {
+  .img-item.twelve {
+    left: 406px;
+  }
+
+  .img-item.thirteen {
+    left: 450px;
+  }
+
+  .img-item.fourteen {
+    left: 515px;
+  }
 }
