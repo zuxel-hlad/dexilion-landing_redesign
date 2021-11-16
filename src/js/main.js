@@ -69,7 +69,7 @@ const wow = new WOW({
 $(document).ready(function () {
   let screenWidth = $(window).width();
 
-  if (screenWidth <= 992) {
+  if (screenWidth <= 1100) {
     return false;
   } else {
     jQuery(window).scroll(function () {

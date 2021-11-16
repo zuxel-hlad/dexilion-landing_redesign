@@ -59,7 +59,7 @@
   }
 
   .nav-list-link::after {
-    bottom: 28px;
+    display: none;
   }
 
   .nav-list-item {
@@ -86,6 +86,7 @@
 
   .nav-list-link:active {
     overflow: unset;
+    text-decoration: underline;
     color: var(--white-color);
   }
 
