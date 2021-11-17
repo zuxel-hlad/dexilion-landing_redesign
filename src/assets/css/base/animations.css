@@ -1,35 +1,4 @@
 /* keyFrames */
-@keyframes size-animation {
-  from {
-    height: 100%;
-  }
-
-  50% {
-    height: 50%;
-  }
-
-  to {
-    height: 0;
-  }
-}
-
-@keyframes scale {
-  from {
-    z-index: -1;
-    transform: scale(0) rotate(360deg);
-  }
-
-  50% {
-    z-index: 1;
-    transform: scale(0) rotate(180deg);
-  }
-
-  to {
-    z-index: 4;
-    transform: scale(1) rotate(0deg);
-  }
-}
-
 @keyframes down {
   from {
     transform: translateY(-110px);
