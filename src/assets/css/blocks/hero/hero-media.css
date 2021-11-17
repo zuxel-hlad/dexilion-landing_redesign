@@ -27,7 +27,7 @@
 
 @media (max-width: 576px) {
   .dexilion-hero {
-    min-height: auto;
+    min-height: unset;
   }
 
   .hero-wrapper {
@@ -39,8 +39,6 @@
 
   .hero-img {
     padding: 0;
-    overflow: hidden;
-    height: 400px;
   }
 
   .img-desktop {
@@ -83,12 +81,15 @@
     padding: 110px 0 57px 0;
   }
 
-  .hero-text {
-    justify-content: flex-start;
+  .hero-wrapper {
+    position: relative;
   }
 
-  .hero-img {
-    height: 295px;
+  .hero-text {
+    position: absolute;
+    top: 320px;
+    left: 0;
+    justify-content: flex-start;
   }
 
   .hero-title-descr {
@@ -105,14 +106,14 @@
   .text-block-title.mobile {
     max-width: 100%;
   }
+
+  .hero-img-promo {
+    width: 370px;
+  }
 }
 
-@media (max-width: 321px) {
-  .header-nav-wrapper {
-    padding: 55px 16px 35px 16px;
-  }
-
-  .nav-list-link {
-    padding: 15px 0;
+@media (max-width: 340px) {
+  .hero-img-promo {
+    width: 340px;
   }
 }

@@ -137,4 +137,18 @@
   .header-nav-wrapper {
     width: 100%;
   }
+
+  .header {
+    border: none;
+  }
+}
+
+@media (max-width: 321px) {
+  .header-nav-wrapper {
+    padding: 55px 16px 35px 16px;
+  }
+
+  .nav-list-link {
+    padding: 15px 0;
+  }
 }
