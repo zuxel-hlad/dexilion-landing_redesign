@@ -8,7 +8,7 @@
 }
 
 .hero-wrapper {
-  background: url('../../../img/hero-section-bg.png') top right/contain
+  background: url('../../../img/hero-section-bg.png') top right/cover
     no-repeat;
   display: flex;
   width: 100%;
@@ -19,7 +19,9 @@
 .hero-text {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 200px 0 0 0;
 }
 
 .hero-title {

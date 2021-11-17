@@ -18,9 +18,11 @@
     flex-wrap: wrap;
     background: url('../../../img/hero-section-bg.png') left top/contain
       no-repeat;
+      min-height: unset;
   }
 
   .hero-text {
+    padding: 0;
     order: 1;
   }
 }
