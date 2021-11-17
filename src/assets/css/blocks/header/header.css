@@ -10,7 +10,7 @@
   border-bottom: 2px solid transparent;
   border-image: linear-gradient(90deg, #2C2C2C -0.99%, #262626 101.58%);
   border-image-slice: 1;
-  animation: down ease-in .5s;
+  animation: down ease-in .3s;
 }
 
 .header-wrapper {
