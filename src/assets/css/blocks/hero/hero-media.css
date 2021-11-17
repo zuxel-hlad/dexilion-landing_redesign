@@ -1,3 +1,9 @@
+@media (max-width: 1351px) {
+  .hero-wrapper {
+    background: url('../../../img/hero-bg.svg') right top/150% no-repeat;
+  }
+}
+
 @media (max-width: 1116px) {
   .dexilion-hero {
     padding: 110px 0 57px 0;
@@ -16,14 +22,19 @@
 
   .hero-wrapper {
     flex-wrap: wrap;
-    background: url('../../../img/hero-section-bg.png') left top/contain
-      no-repeat;
-      min-height: unset;
+    min-height: unset;
   }
 
   .hero-text {
     padding: 0;
     order: 1;
+    min-height: unset;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-wrapper {
+    background: none;
   }
 }
 
@@ -109,9 +120,6 @@
     max-width: 100%;
   }
 
-  /* .hero-img-promo {
-    width: 370px;
-  } */
 }
 
 @media (max-width: 340px) {
