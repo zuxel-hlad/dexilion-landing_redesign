@@ -33,6 +33,11 @@
   .hero-wrapper {
     background: none;
   }
+
+  .dexilion-hero .container {
+    padding: 0;
+  }
+
   .img-item {
     display: none;
   }
@@ -63,7 +68,9 @@
   }
 
   .hero-text {
+    margin: -56px 0 0 0;
     width: 100%;
+    padding: 0 15px;
   }
 
   .hero-try {
@@ -81,14 +88,7 @@
     padding: 110px 0 57px 0;
   }
 
-  .hero-wrapper {
-    position: relative;
-  }
-
   .hero-text {
-    position: absolute;
-    top: 320px;
-    left: 0;
     justify-content: flex-start;
   }
 
@@ -107,9 +107,9 @@
     max-width: 100%;
   }
 
-  .hero-img-promo {
+  /* .hero-img-promo {
     width: 370px;
-  }
+  } */
 }
 
 @media (max-width: 340px) {
