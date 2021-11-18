@@ -50,6 +50,32 @@
     padding: 60px 60px 0 60px;
     justify-content: space-between;
   }
+
+  .roadmap-item.one {
+    order: 1;
+  }
+
+  .roadmap-item.two {
+    order: 0;
+  }
+
+  .roadmap-item.three {
+    order: 3;
+  }
+
+  .roadmap-item.four {
+    order: 2;
+  }
+
+  .roadmap-item.five {
+    order: 5;
+  }
+  .roadmap-item.six {
+    order: 4;
+  }
+  .roadmap-item.seven {
+    order: 6;
+  }
 }
 
 @media (max-width: 1020px) {
@@ -86,7 +112,8 @@
 
   .dexilion-roadmap .roadmap-item {
     margin: 0 0 20px 0;
-    max-width: 100%;
+    width: 100%;
+    max-width: 48%;
     min-height: 227px;
   }
 
@@ -96,6 +123,16 @@
 
   .item-icon .mainnet-v1 {
     left: 12px;
+  }
+}
+
+@media (max-width: 720px) {
+  .roadmap-content-wrapper {
+    justify-content: center;
+  }
+
+  .dexilion-roadmap .roadmap-item {
+    max-width: 428px;
   }
 }
 
@@ -110,32 +147,6 @@
 
   .item-wrapper {
     padding: 0 0 0 45px;
-  }
-
-  .roadmap-item.one {
-    order: 1;
-  }
-
-  .roadmap-item.two {
-    order: 0;
-  }
-
-  .roadmap-item.three {
-    order: 3;
-  }
-
-  .roadmap-item.four {
-    order: 2;
-  }
-
-  .roadmap-item.five {
-    order: 5;
-  }
-  .roadmap-item.six {
-    order: 4;
-  }
-  .roadmap-item.seven {
-    order: 6;
   }
 }
 

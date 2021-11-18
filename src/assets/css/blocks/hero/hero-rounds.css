@@ -19,8 +19,8 @@
 }
 
 .img-item.one {
-  left: 134px;
-  top: 114px;
+  left: 117px;
+  top: 55px;
   width: 13px;
   height: 13px;
   background: var(--green-round-bg);
@@ -37,8 +37,8 @@
 .img-item.two {
   width: 11px;
   height: 11px;
-  left: 178px;
-  top: 132px;
+  left: 164px;
+  top: 76px;
   background: var(--green-round-bg);
 }
 
@@ -51,8 +51,8 @@
 }
 
 .img-item.three {
-  top: 90px;
-  left: 218px;
+  top: 38px;
+  left: 215px;
   width: 28px;
   height: 28px;
   background: var(--grey-round-bg);
@@ -69,7 +69,7 @@
 .img-item.four {
   width: 10px;
   height: 10px;
-  top: 95px;
+  top: 31px;
   right: 329px;
   background: var(--green-round-bg);
 }
@@ -85,8 +85,8 @@
 .img-item.five {
   width: 12px;
   height: 12px;
-  top: 87px;
-  left: 465px;
+  top: 25px;
+  left: 486px;
   background: var(--grey-round-bg);
 }
 
@@ -101,8 +101,8 @@
 .img-item.six {
   width: 17px;
   height: 17px;
-  top: 120px;
-  left: 414px;
+  top: 66px;
+  left: 430px;
   background: var(--green-round-bg);
 }
 
@@ -117,8 +117,8 @@
 .img-item.seven {
   width: 16px;
   height: 16px;
-  top: 119px;
-  left: 504px;
+  top: 66px;
+  left: 528px;
   background: var(--grey-round-bg);
 }
 
@@ -133,8 +133,8 @@
 .img-item.eight {
   width: 17px;
   height: 17px;
-  top: 371px;
-  left: 50px;
+  top: 351px;
+  left: 22px;
   background: var(--green-round-bg);
 }
 
@@ -150,7 +150,7 @@
   width: 25px;
   height: 25px;
   top: 435px;
-  left: 133px;
+  left: 90px;
   background: var(--grey-round-bg);
 }
 
@@ -165,8 +165,8 @@
 .img-item.ten {
   width: 16px;
   height: 16px;
-  top: 405px;
-  left: 221px;
+  top: 394px;
+  left: 196px;
   background: var(--grey-round-bg);
 }
 
@@ -181,7 +181,7 @@
 .img-item.eleven {
   width: 25px;
   height: 25px;
-  top: 420px;
+  top: 413px;
   left: 280px;
   background: var(--green-round-bg);
 }
@@ -197,8 +197,8 @@
 .img-item.twelve {
   width: 17px;
   height: 17px;
-  top: 458px;
-  left: 460px;
+  top: 453px;
+  left: 484px;
   background: var(--green-round-bg);
 }
 
@@ -213,8 +213,8 @@
 .img-item.thirteen {
   width: 32px;
   height: 32px;
-  left: 497px;
-  top: 415px;
+  left: 522px;
+  top: 401px;
   background: var(--grey-round-bg);
 }
 
@@ -229,8 +229,8 @@
 .img-item.fourteen {
   width: 20px;
   height: 20px;
-  left: 580px;
-  top: 450px;
+  left: 615px;
+  top: 435px;
   background: var(--green-round-bg);
 }
 
@@ -244,14 +244,14 @@
 
 @media (max-width: 1116px) {
   .img-item.twelve {
-    left: 406px;
+    left: 466px;
   }
 
   .img-item.thirteen {
-    left: 450px;
+    left: 510px;
   }
 
   .img-item.fourteen {
-    left: 515px;
+    left: 600px;
   }
 }

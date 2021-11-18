@@ -101,6 +101,10 @@
   background-color: var(--btn-color);
 }
 
+.footer-information-item.documents {
+  padding: 0 0 0 40px;
+}
+
 .footer-list {
   padding: 17px 0 0 0;
   display: flex;

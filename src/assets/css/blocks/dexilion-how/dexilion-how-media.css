@@ -62,6 +62,25 @@
     order: 1;
     padding: 20px 0 0 0;
   }
+
+  .connect-wallet-img {
+    margin: 97px 0 0 37px;
+  }
+
+  .deposit-img {
+    position: relative;
+    margin: 61px 0 0 48px;
+    width: 335px;
+    height: 371px;
+    z-index: 1;
+  }
+
+  .derivatives-img {
+    margin: 80px 0 0 30px;
+    position: relative;
+    width: 488px;
+    height: 306px;
+  }
 }
 
 @media (max-width: 630px) {
@@ -76,7 +95,7 @@
   }
 
   .deposit-img {
-    margin: 50px 0 0 73px;
+    margin: 30px 0 0 73px;
     width: 270px;
     height: 290px;
   }
@@ -113,7 +132,7 @@
   }
 
   .position-img {
-    margin: 50px 0 0 79px;
+    margin: 30px auto 0;
     width: 384px;
     height: 290px;
   }
@@ -134,10 +153,6 @@
 
   .text-block-title {
     font-size: 28px;
-  }
-
-  .position-img {
-    margin: 50px 0 0 50px;
   }
 
   .connect-wallet-img {
@@ -193,7 +208,7 @@
   }
 
   .position-img {
-    margin: 37px 0 0 23px;
+    margin: 33px auto 0;
     width: 303px;
     height: 228px;
   }
@@ -202,12 +217,21 @@
   .dexilion-how.step-2 .content-image-block,
   .dexilion-how.step-3 .content-image-block,
   .dexilion-how.step-4 .content-image-block {
-    width: 378px;
     border-radius: 5px;
   }
 
   .dexilion-how.step-4 .content-image-block {
     min-height: 290px;
+  }
+}
+
+@media (max-width: 376px) {
+  .dexilion-how.step-1 .content-image-block,
+  .dexilion-how.step-2 .content-image-block,
+  .dexilion-how.step-3 .content-image-block,
+  .dexilion-how.step-4 .content-image-block {
+    width: 378px;
+    max-width: unset;
   }
 }
 
