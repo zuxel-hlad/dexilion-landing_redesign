@@ -1,9 +1,3 @@
-@media (max-width: 1351px) {
-  .hero-wrapper {
-    background: url('../../../img/hero-bg.svg') right top/150% no-repeat;
-  }
-}
-
 @media (max-width: 1116px) {
   .dexilion-hero {
     padding: 110px 0 57px 0;
@@ -40,12 +34,6 @@
 
   .hero-try {
     margin: 31px auto 0;
-  }
-}
-
-@media (max-width: 992px) {
-  .hero-wrapper {
-    background: none;
   }
 }
 
