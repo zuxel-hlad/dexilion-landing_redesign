@@ -64,72 +64,95 @@ document.addEventListener('DOMContentLoaded', () => {
     var renderer, scene, camera, pointCloud;
     var screenW = window.innerWidth;
     var screenH = window.innerHeight;
-    
+
     var spdx = 0,
       spdy = 0;
-    var mouseX = 0, mouseY = 0, mouseDown = false;
+    var mouseX = 0,
+      mouseY = 0,
+      mouseDown = false;
     // mouse
-    document.addEventListener('mousemove', function(event) {
-      mouseX = event.clientX;
-      mouseY = event.clientY;
-    }, false);
-    document.body.addEventListener("mousedown", function(event) {
-      mouseDown = true
-    }, false);
-    document.body.addEventListener("mouseup", function(event) {
-      mouseDown = false
-    }, false);
-    
+    document.addEventListener(
+      'mousemove',
+      function (event) {
+        mouseX = event.clientX;
+        mouseY = event.clientY;
+      },
+      false
+    );
+    document.body.addEventListener(
+      'mousedown',
+      function (event) {
+        mouseDown = true;
+      },
+      false
+    );
+    document.body.addEventListener(
+      'mouseup',
+      function (event) {
+        mouseDown = false;
+      },
+      false
+    );
+
     init();
     animate();
-    
+
     function init() {
-    
       // dom
       var container = document.getElementById('canvas');
-    
+
       // renderer
       renderer = new THREE.WebGLRenderer({
-        alpha: true
+        alpha: true,
       });
       renderer.setSize(window.innerWidth, window.innerHeight);
       container.appendChild(renderer.domElement);
-    
+
       // scene
       scene = new THREE.Scene();
-    
+
       //camera
-      camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 10000);
-      camera.position.z = 500;
+      camera = new THREE.PerspectiveCamera(
+        45,
+        window.innerWidth / window.innerHeight,
+        1,
+        10000
+      );
+      camera.position.z = 600;
       camera.position.y = 0;
-      camera.position.x = -300; 
-    
+      camera.position.x = -300;
+      if (screenW <= 1700) {
+        camera.position.x = screenW / screenH - 200;
+      }
+
+      if (screenW <= 1116) {
+        camera.position.y = screenH / screenW + 30;
+      }
+
       // geometry
       var geometry = new THREE.TorusKnotGeometry(0, 200, 30, 100); //共四层形状
-    
+
       // vertex colors
       var colors = [];
       for (var i = 0; i < geometry.vertices.length; i++) {
-    
         // blue color
         colors[i] = new THREE.Color();
-        colors[i].setHSL( 2, 202, 192 );//白色设置为1,random color:第一个值为random
+        colors[i].setHSL(2, 202, 192); //白色设置为1,random color:第一个值为random
       }
       geometry.colors = colors;
-    
+
       // material
       material = new THREE.PointsMaterial({
         size: 3,
-        vertexColors: THREE.VertexColors
+        vertexColors: THREE.VertexColors,
       });
-    
+
       // point cloud
       pointCloud = new THREE.Points(geometry, material);
-    
+
       scene.add(pointCloud);
-    
     }
-    
+
     function animate() {
       spdy = (screenH / 2 - mouseY) / 400;
       spdx = (screenW / 2 - mouseX) / 400;
@@ -139,22 +162,18 @@ document.addEventListener('DOMContentLoaded', () => {
         pointCloud.rotation.y = spdx;
       }
       requestAnimationFrame(animate);
-    
+
       render();
-    
     }
-    
+
     function render() {
-    
       // rotate 速度设置
       pointCloud.rotation.x += 0.0005;
       pointCloud.rotation.y += 0.0005;
-    
+
       // render
       renderer.render(scene, camera);
-    
     }
-    
   })();
 });
 
