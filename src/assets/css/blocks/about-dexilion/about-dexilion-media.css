@@ -14,14 +14,13 @@
   }
 }
 
-@media(max-width: 1130px) {
-    .about-dexilion {
-      padding: 120px 0 46px 0;
-    }
+@media (max-width: 1130px) {
+  .about-dexilion {
+    padding: 120px 0 46px 0;
+  }
 }
 
 @media (max-width: 992px) {
-  
   .about-card:hover {
     background-color: var(--bg-main-color);
     border-color: var(--border-color);
@@ -63,8 +62,6 @@
 }
 
 @media (max-width: 375px) {
-
-
   .about-card-logo {
     margin: 0 0 22px 0;
   }
