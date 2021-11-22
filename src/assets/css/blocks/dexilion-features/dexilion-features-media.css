@@ -8,6 +8,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .feature-item {
+    max-width: 48%;
+  }
+}
+
 @media (max-width: 576px) {
   .dexilion-features {
     padding: 52px 0 62px 0;
@@ -24,10 +30,7 @@
   .feature-item {
     padding: 37px 25px 15px 25px;
     margin: 0 0 20px 0;
-  }
-
-  .feature-item:last-child {
-    margin: 0;
+    max-width: 100%;
   }
 
   .dexilion-item-text {

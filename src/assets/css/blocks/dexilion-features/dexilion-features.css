@@ -23,7 +23,8 @@
 .feature-item {
   padding: 79px 25px 15px 25px;
   position: relative;
-  width: 406px;
+  width: 100%;
+  max-width: 30%;
   min-height: 260px;
   border-radius: 5px;
   background: linear-gradient(177.8deg, #3f3f3f 1.85%, #202020 105.95%);

@@ -16,7 +16,7 @@
 
 .about-card {
   width: 100%;
-  max-width: 624px;
+  max-width: 48%;
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
