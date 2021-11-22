@@ -13,7 +13,7 @@
 
 
 
-        <link rel="stylesheet" href="css/style.css">
+        <!-- <link rel="stylesheet" href="css/style.css"> -->
 
 
 
@@ -67,9 +67,9 @@ function init() {
 
   //camera
   camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 10000);
-  camera.position.z = 500;
+  camera.position.z = 1000;
   camera.position.y = 0;
-  camera.position.x = -500; 
+  camera.position.x = -800; 
 
   // geometry
   var geometry = new THREE.TorusKnotGeometry(0, 200, 30, 100); //共四层形状
