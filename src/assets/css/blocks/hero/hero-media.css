@@ -46,10 +46,6 @@
     padding: 0;
   }
 
-  .img-item {
-    display: none;
-  }
-
   .hero-img {
     padding: 0;
   }
@@ -66,6 +62,7 @@
     width: 100%;
     height: unset;
     transform: none;
+    overflow: hidden;
   }
 
   .hero-title {
