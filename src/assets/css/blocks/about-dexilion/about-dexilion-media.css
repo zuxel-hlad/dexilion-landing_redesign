@@ -1,12 +1,3 @@
-@media (max-width: 1310px) {
-  .about-card {
-    margin: 0 15px 0;
-  }
-
-  .about-card:last-child {
-    margin: 0;
-  }
-}
 
 @media (max-width: 1251px) {
   .about-card-logo {

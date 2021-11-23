@@ -133,13 +133,21 @@
     animation: none;
   }
 }
+
 @media (max-width: 576px) {
+  .header-logo {
+    width: 148px;
+    height: 43px;
+  }
+
   .header-nav-wrapper {
     width: 100%;
   }
 
   .header {
+    min-height: 60px;
     border: none;
+    padding: 8px 0 8px 0;
   }
 }
 

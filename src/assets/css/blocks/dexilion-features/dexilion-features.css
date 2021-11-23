@@ -31,25 +31,12 @@
 }
 
 .item-logo {
-  position: relative;
-  z-index: 1;
-  width: 67px;
-  height: 67px;
+  width: 90px;
+  height: 90px;
   position: absolute;
-  top: -21px;
+  top: -45px;
   left: 50%;
   transform: translateX(-50%);
-}
-
-.item-logo svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.item-logo .attractive-fees {
-  top: 0;
-  left: -8px;
 }
 
 .features-item-text {

@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .about-card-wrapper {
@@ -18,10 +19,9 @@
   width: 100%;
   max-width: 48%;
   display: flex;
-  flex-wrap: wrap;
   align-content: flex-start;
   min-height: 252px;
-  padding: 54px 40px;
+  padding: 29px 26px 31px 31px;
   border: 1px solid var(--border-color);
   background-color: var(--bg-secondary);
   border-radius: 5px;
@@ -41,22 +41,12 @@
 }
 
 .about-card-logo {
-  position: relative;
   margin: 0 24px 0 0;
-  width: 68px;
-  height: 68px;
-}
-
-.about-card-logo.swaps svg {
-  position: absolute;
-  top: 0;
-  left: -50px;
-}
-
-.about-card-logo.organization svg {
-  position: absolute;
-  top: 3px;
-  left: -10px;
+  padding: 26px;
+  width: 114px;
+  height: 105px;
+  border-radius: 10px;
+  background: #5d5d5d;
 }
 
 .card-text {
