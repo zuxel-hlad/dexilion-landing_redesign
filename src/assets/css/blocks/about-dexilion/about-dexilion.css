@@ -1,6 +1,6 @@
 .about-dexilion {
   padding: 120px 0 0 0;
-  background-color: var(--bg-secondary);
+  background-color: var(--bg-main-color);
   min-height: 619px;
   display: flex;
   justify-content: center;
@@ -23,7 +23,7 @@
   min-height: 252px;
   padding: 29px 26px 31px 31px;
   border: 1px solid var(--border-color);
-  background-color: var(--bg-secondary);
+  background-color: var(--about-card-bg);
   border-radius: 5px;
   cursor: pointer;
   transition: 0.5s all;
@@ -36,17 +36,14 @@
 }
 
 .about-card:hover {
-  background: var(--card-bg-hover);
   border-color: var(--btn-color);
 }
 
 .about-card-logo {
   margin: 0 24px 0 0;
   padding: 26px;
-  width: 114px;
-  height: 105px;
-  border-radius: 10px;
-  background: #5d5d5d;
+  width: 115px;
+  height: 115px;
 }
 
 .card-text {

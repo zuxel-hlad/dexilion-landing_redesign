@@ -1,12 +1,8 @@
 .dexilion-features {
-  padding: 103px 0 0 0;
-  background: url('../../../img/key-features.bg.png') center center/cover
-    no-repeat;
-  background-color: var(--key-features-bg);
+  background-color: var(--bg-main-color);
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  min-height: 1021px;
 }
 
 .features-items-wrapper {
@@ -27,7 +23,8 @@
   max-width: 30%;
   min-height: 260px;
   border-radius: 5px;
-  background: linear-gradient(177.8deg, #3f3f3f 1.85%, #202020 105.95%);
+  background: var(--key-futures-card);
+  cursor: pointer;
 }
 
 .item-logo {

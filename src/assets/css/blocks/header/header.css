@@ -4,13 +4,23 @@
   width: 100%;
   min-height: 109px;
   padding: 34px 0 13px 0;
-  background-color: var(--bg-main-color);
+  /* background-color: var(--bg-main-color); */
+  background: radial-gradient(
+      0% 0% ellipse at left,
+      var(--bg-main-color) 0%,
+      rgba(0, 0, 0, 0) 0%
+    ),
+    radial-gradient(
+      44% 164% ellipse at right,
+      var(--btn-color) 0%,
+      var(--bg-main-color) 101%
+    );
   display: flex;
   align-items: center;
   border-bottom: 2px solid transparent;
-  border-image: linear-gradient(90deg, #2C2C2C -0.99%, #262626 101.58%);
+  border-image: linear-gradient(90deg, #2c2c2c -0.99%, #262626 101.58%);
   border-image-slice: 1;
-  animation: down ease-in .3s;
+  animation: down ease-in 0.3s;
 }
 
 .header-wrapper {

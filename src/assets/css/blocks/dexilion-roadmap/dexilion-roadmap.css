@@ -74,6 +74,13 @@
   background: linear-gradient(0deg, #4e4e4e, #4e4e4e);
   box-shadow: 11px 5px 48px 3px rgba(31, 31, 31, 0.48);
   border-radius: 5px;
+  border: 1px solid var(--border-color);
+  transition: 0.5s all;
+  cursor: pointer;
+}
+
+.item-wrapper:hover {
+  border-color: var(--btn-color);
 }
 
 .item-wrapper.right {
