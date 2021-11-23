@@ -105,53 +105,53 @@
 .connect-wallet-img {
   margin: 97px 0 0 53px;
   position: relative;
-  max-width: 464px;
-  height: 308px;
+  max-width: 476px;
+  height: 302px;
 }
 
 .connect-sub-img {
-  max-width: 372px;
-  height: 188px;
+  max-width: 391px;
+  height: 200px;
   position: absolute;
-  top: 142px;
-  right: -65px;
+  top: 146px;
+  right: -75px;
 }
 
 .deposit-img {
   position: relative;
   margin: 61px 0 0 73px;
-  width: 335px;
-  height: 371px;
+  width: 313px;
+  height: 347px;
   z-index: 1;
 }
 
 .deposit-sub-img {
-  width: 272px;
-  height: 301px;
+  width: 259px;
+  height: 287px;
   position: absolute;
-  top: 34px;
-  right: -171px;
+  top: 35px;
+  right: -175px;
   z-index: -1;
 }
 
 .derivatives-img {
   margin: 80px 0 0 50px;
   position: relative;
-  width: 488px;
-  height: 306px;
+  width: 490px;
+  height: 308px;
 }
 
 .derivatives-sub-img {
   position: absolute;
-  width: 180px;
-  height: 312px;
+  width: 183px;
+  height: 317px;
   top: 49px;
   right: -53px;
 }
 
 .position-img {
   margin: 68px auto 0;
-  width: 492px;
+  width: 493px;
   height: 372px;
 }
 

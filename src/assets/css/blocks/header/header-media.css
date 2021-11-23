@@ -1,4 +1,7 @@
 @media (max-width: 1200px) {
+  .header .container {
+    max-width: 100%;
+  }
   .header-nav-wrapper {
     width: 100%;
   }
