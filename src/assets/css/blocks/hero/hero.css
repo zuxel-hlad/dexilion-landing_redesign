@@ -4,7 +4,6 @@
   display: flex;
   align-items: center;
   min-height: 100vh;
-  overflow: hidden;
 }
 
 .dexilion-hero.canvas {
@@ -87,6 +86,7 @@
   padding: 0;
   display: flex;
   align-items: flex-start;
+  overflow: hidden;
 }
 
 .hero-img-promo {
