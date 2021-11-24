@@ -118,9 +118,9 @@ document.addEventListener('DOMContentLoaded', () => {
         1,
         10000
       );
-      camera.position.z = 600;
+      camera.position.z = 700;
       camera.position.y = 0;
-      camera.position.x = -300;
+      camera.position.x = -250;
       if (screenW <= 1700) {
         camera.position.x = screenW / screenH - 200;
       }
@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       // geometry
-      var geometry = new THREE.TorusKnotGeometry(0, 200, 30, 100); //共四层形状
+      var geometry = new THREE.TorusKnotGeometry(10, 200, 30, 100); //共四层形状
 
       // vertex colors
       var colors = [];

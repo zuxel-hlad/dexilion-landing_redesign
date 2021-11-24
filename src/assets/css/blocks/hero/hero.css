@@ -19,16 +19,22 @@
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: radial-gradient(
-      50% 90% ellipse at left,
-      var(--bg-main-color) 0%,
-      rgba(0, 0, 0, 0) 100%
-    ),
-    radial-gradient(
-      50% 90% ellipse at right,
-      var(--btn-color) 0%,
-      var(--bg-main-color) 100%
-    );
+}
+
+#canvas:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  filter: blur(50px);
+  background:
+          radial-gradient(30% 60% ellipse at 73% 70%, #FF8A00 0%, rgba(0, 0, 0, 0) 50%),
+          radial-gradient(30% 40% ellipse at 85% 54%, #646AEA 0%, rgba(100, 106, 234, 0) 60%),
+          radial-gradient(20% 40% ellipse at 78% 28%, #42E8E0 0%, rgba(100, 106, 234, 0) 50%)
 }
 
 #canvas canvas {
@@ -67,8 +73,8 @@
 .hero-try {
   margin: 31px 0 0 0;
   width: 100%;
-  max-width: 254px;
-  min-height: 73px;
+  max-width: 220px;
+  min-height: 60px;
 }
 
 .hero-img {

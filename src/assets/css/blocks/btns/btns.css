@@ -1,11 +1,11 @@
 .btn {
-  padding: 17px 13px 13px 13px;
+  padding: 16px 13px 13px 13px;
   color: var(--dex-demo-color);
   display: flex;
   justify-content: center;
   align-items: center;
   background: var(--btn-color);
-  border-radius: 5px;
+  border-radius: 30px;
   border: none;
   cursor: pointer;
   transition: 0.5s all;
