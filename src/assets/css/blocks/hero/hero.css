@@ -22,7 +22,7 @@
 }
 
 #canvas:after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   top: 0;
@@ -30,11 +30,17 @@
   z-index: -1;
   width: 100%;
   height: 100%;
-  filter: blur(50px);
-  background:
-          radial-gradient(30% 60% ellipse at 73% 70%, #FF8A00 0%, rgba(0, 0, 0, 0) 50%),
-          radial-gradient(30% 40% ellipse at 85% 54%, #646AEA 0%, rgba(100, 106, 234, 0) 60%),
-          radial-gradient(20% 40% ellipse at 78% 28%, #42E8E0 0%, rgba(100, 106, 234, 0) 50%)
+  filter: blur(100px);
+  background: radial-gradient(
+    50% 80% ellipse at 90% 35%,
+      rgba(66, 232, 224, 0.93) 0%,
+      rgba(66, 232, 224, 0) 50%
+    ),
+    radial-gradient(
+      50% 90% ellipse at 90% 75%,
+      rgba(100, 106, 234, 0.9) 0%,
+      rgba(100, 106, 234, 0) 50%
+    );
 }
 
 #canvas canvas {
