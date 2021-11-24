@@ -116,11 +116,11 @@ document.addEventListener('DOMContentLoaded', () => {
         45,
         window.innerWidth / window.innerHeight,
         1,
-        10000
+        1000
       );
-      camera.position.z = 700;
-      camera.position.y = 0;
-      camera.position.x = -250;
+      camera.position.z = 480;
+      camera.position.y =30;
+      camera.position.x = -350;
       if (screenW <= 1700) {
         camera.position.x = screenW / screenH - 200;
       }
