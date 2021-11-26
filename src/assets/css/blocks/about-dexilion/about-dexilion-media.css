@@ -1,10 +1,4 @@
 
-@media (max-width: 1251px) {
-  .about-card-logo {
-    margin: 0 24px 24px 0;
-  }
-}
-
 @media (max-width: 1130px) {
   .about-dexilion {
     padding: 120px 0 46px 0;
@@ -49,12 +43,6 @@
 
   .about-card-descr {
     margin: 0;
-  }
-}
-
-@media (max-width: 375px) {
-  .about-card-logo {
-    margin: 0 0 22px 0;
   }
 }
 

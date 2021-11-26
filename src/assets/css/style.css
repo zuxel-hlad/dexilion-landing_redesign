@@ -17,8 +17,6 @@
   --black-color: #000;
   --white-color: #fff;
   --bg-main-color: #393939;
-  --bg-secondary: #494949;
-  --about-card-bg: #525252;
   --nav-link-color: #737373;
   --header-border: linear-gradient(90deg, #2c2c2c -0.99%, #262626 101.58%);
   --dex-demo-color: #111222;
@@ -40,6 +38,7 @@
     rgba(66, 232, 224, 0.78) 0%,
     rgba(66, 232, 224, 0) 100%
   );
+  --about-card-bg: linear-gradient(179.7deg, #393939 0.26%, #494949 159.62%);
   --green-round-shadow: radial-gradient(
     50% 50% at 50% 50%,
     rgba(3, 3, 3, 0.69) 0%,

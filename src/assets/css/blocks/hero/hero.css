@@ -18,19 +18,20 @@
   z-index: -1;
   width: 100%;
   height: 100%;
+  /* overflow: hidden; */
 }
 
 #canvas:after {
   content: '';
   display: block;
   position: absolute;
-  top: 0;
-  left: 0;
+  right:0;
+  bottom: 0;
   z-index: -1;
   width: 100%;
   height: 100%;
-  filter: blur(100px);
-  background: radial-gradient(
+  background: url('../../../../assets/img/hero-bg.png')140% bottom/contain no-repeat;
+  /* background: radial-gradient(
       50% 80% ellipse at 90% 35%,
       rgba(66, 232, 224, 0.93) 0%,
       rgba(66, 232, 224, 0) 50%
@@ -39,8 +40,19 @@
       50% 90% ellipse at 90% 75%,
       rgba(100, 106, 234, 0.9) 0%,
       rgba(100, 106, 234, 0) 50%
-    ),
-    radial-gradient(85.66% 92.84% ellipse at 11.09% 93.38%, rgba(66, 232, 224, 0.93) 11%, rgba(66, 232, 224, 0) 10%);
+    ); */
+}
+
+#canvas::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 515px;
+  height: 653px;
+  left: -172px;
+  bottom: -292px;
+  background: url('../../../../assets/img/hero-sub-bg.png')right bottom/cover no-repeat;
+  z-index: 1;
 }
 
 #canvas canvas {
@@ -91,7 +103,6 @@
 }
 
 .hero-img-promo {
-  transform: translateX(40px);
   width: 829px;
   height: 634px;
 }
