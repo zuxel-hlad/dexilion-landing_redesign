@@ -118,16 +118,9 @@ document.addEventListener('DOMContentLoaded', () => {
         1,
         1000
       );
-      camera.position.z = 610;
+      camera.position.z = 630;
       camera.position.y = 30;
-      camera.position.x = -350;
-      if (screenW <= 1700) {
-        camera.position.x = screenW / screenH - 200;
-      }
-
-      if (screenW <= 1116) {
-        camera.position.y = screenH / screenW + 30;
-      }
+      camera.position.x = -450;
 
       // geometry
       var geometry = new THREE.TorusKnotGeometry(10, 200, 30, 100); //共四层形状

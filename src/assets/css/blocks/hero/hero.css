@@ -18,29 +18,19 @@
   z-index: -1;
   width: 100%;
   height: 100%;
-  /* overflow: hidden; */
 }
 
 #canvas:after {
   content: '';
   display: block;
   position: absolute;
-  right:0;
+  right: 0;
   bottom: 0;
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: url('../../../../assets/img/hero-bg.png')140% bottom/contain no-repeat;
-  /* background: radial-gradient(
-      50% 80% ellipse at 90% 35%,
-      rgba(66, 232, 224, 0.93) 0%,
-      rgba(66, 232, 224, 0) 50%
-    ),
-    radial-gradient(
-      50% 90% ellipse at 90% 75%,
-      rgba(100, 106, 234, 0.9) 0%,
-      rgba(100, 106, 234, 0) 50%
-    ); */
+  background: url('../../../../assets/img/hero-bg.png') 140% bottom/contain
+    no-repeat;
 }
 
 #canvas::before {
@@ -51,7 +41,8 @@
   height: 653px;
   left: -172px;
   bottom: -292px;
-  background: url('../../../../assets/img/hero-sub-bg.png')right bottom/cover no-repeat;
+  background: url('../../../../assets/img/hero-sub-bg.png') right bottom/cover
+    no-repeat;
   z-index: 1;
 }
 
@@ -68,6 +59,8 @@
 }
 
 .hero-text {
+  width: 100%;
+  max-width: 545px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -96,15 +89,17 @@
 }
 
 .hero-img {
+  width: 100%;
+  max-width: 647px;
   padding: 0;
   display: flex;
   align-items: flex-start;
-  overflow: hidden;
 }
 
-.hero-img-promo {
-  width: 829px;
-  height: 634px;
+.img-desktop {
+  width: 100%;
+  display: block;
+  margin: 0 0 0 auto;
 }
 
 .img-mobile {
